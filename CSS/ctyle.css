@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-PB4-main-box {
+  width: 375px;
+  height: 481px;
+  background-color: #edf3f8;
+  font-size: 36px;
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  line-height: 36px;
+  word-wrap: break-word;
+  margin: 0 auto;
+}
+.main-PB4-bash-text {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  width: 328px;
+  height: 209px;
+}
+.main-PB4-bash-text img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.main-PB4-text-easy {
+  width: 328px;
+  height: 144px;
+}
+.main-PB4-h2-text {
+  color: #36536b;
+  font-size: 36px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  line-height: 36px;
+  word-wrap: break-word;
+  text-align: center;
+  margin-bottom: 24px;
+  padding-left: 20px;
+}
+.main-PB4-p-text {
+  color: #6c8294;
+  font-size: 15px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+  text-align: center;
+  padding-left: 20px;
+}
