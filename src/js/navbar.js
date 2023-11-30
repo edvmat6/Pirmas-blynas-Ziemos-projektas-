@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', function() {
     var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
     // Check the initial screen width and update display property
-    if (screenWidth > 550) {
+    if (screenWidth > 765) {
         document.querySelector('.navbar-child-mobile-ui').style.display = 'none';
     }
 
@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('resize', function() {
         screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
-        if (screenWidth > 550) {
+        if (screenWidth > 765) {
             document.querySelector('.navbar-child-mobile-ui').style.display = 'none';
         }
     });
