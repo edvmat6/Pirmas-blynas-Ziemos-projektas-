@@ -8,7 +8,7 @@
     transform: translateX(10%);
 }
 
-.navbar-child {
+.navbar-child{
     width: 70%;
     display: flex;
     flex-direction: row;
