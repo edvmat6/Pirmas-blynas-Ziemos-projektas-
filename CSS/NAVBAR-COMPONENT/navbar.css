@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap');
+
+.navbar-parent {
+    width: 100%;
+    position: fixed;
+    display: flex;
+
+    transform: translateX(10%);
+}
+
+.navbar-child {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+
+    list-style: none;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 1rem;
+}
+
+.navbar-child a {
+    text-decoration: none;
+    color: #36536B;
+    opacity: 0.7;
+}
+
+.navbar-child a:hover {
+    opacity: 1;
+}
+
+.navbar-child button {
+    width: 10.8125rem;
+    height: 3rem;
+    flex-shrink: 0;
+    align-items: center;
+    background-color: #0A66C2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    color: #FBFCFE;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.00719rem;
+    justify-content: center;
+    line-height: 20px;
+    min-width: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    margin-left: auto;
+    border-radius: 1.5rem;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}
+
+.navbar-child button:hover {
+    background: #DA6D97;
+}
+
+/* logo */
+.logo{
+    transform: translateX(-20%);
+}
+
+/* Mobile Ui Navbar */
+.navbar-child-mobile{
+    display: none;
+}
+
+/* Mobile Ui Nav Menu  */
+.navbar-child-mobile-ui-div{
+    display: none;
+}
+
+@media (max-width: 765px) {
+    /* Desktop & Tablet disable */
+    .navbar-child{
+        display: none;
+    }
+
+    /* Mobile navbar */
+    .navbar-child-mobile{
+
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    
+        list-style: none;
+        
+        font-family: 'Public Sans', sans-serif;
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        padding-top: 1.2rem;
+        
+    }
+
+    .logo{
+        margin-right: auto;
+    }
+
+    .navbar-child-mobile button {
+        width: 20%;
+        height: 100%;
+        margin-left: auto;
+
+        background: transparent;
+        border: none;
+
+        font-family: 'Public Sans', sans-serif;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    /* Mobile navbar UI */
+    .navbar-child-mobile-ui-div{
+        /* Position */
+        position: absolute;
+        display: block;
+
+        /* Width Height */
+        width: 100%;
+        height: 100vh;
+
+    }
+    .navbar-child-mobile-ui{
+        width: 93%;
+        height: 100vh;
+
+        float: right;
+        background: #1B262F;
+
+        display: flex;
+        gap: 1.5rem;
+
+        flex-direction: column;
+        align-items: center;
+
+        /* List Styling */
+        list-style: none;
+
+
+    }
+
+    .navbar-child-mobile-ui li{
+        width: 70%;
+        text-align: center;
+        padding-top: 2rem;
+
+    }
+
+    .navbar-child-mobile-ui li a{
+        text-decoration: none;
+
+        /* Font Styling */
+        color: #FBFCFE;
+
+        text-align: center;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        opacity: 0.7;
+    }
+
+    /* navbar close button */
+    #closeButtonNav{
+        width: 100%;
+
+        background: transparent;
+        border: 0;
+        border-bottom: 1px solid rgb(251,252,254,0.15);
+
+        text-align: end;
+    }
+
+    #closeButtonNav svg{
+        padding-bottom: 1rem;
+    }
+
+    #demoButton{
+        /* Layout */
+        width: 60vw;
+        height: 3rem;
+        flex-shrink: 0;
+
+        /* Style */
+        border-radius: 1.5rem;
+        background: #BA4270;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+
+        border: 0;
+
+        /* Text Styling */
+        color: #FBFCFE;
+        text-align: center;
+        font-family: Public Sans;
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.00719rem;
+
+    }
+
+
+    
+}
+
