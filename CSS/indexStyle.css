@@ -10,6 +10,9 @@
         background-repeat: no-repeat;
         background-position: center -550px;
 
+        position: relative;
+        z-index: -1;
+
     }
 
     /* PB-2 Telefono paveikslelis*/
@@ -131,6 +134,8 @@
 
     .PB-3 {
         background-color: #1B262F;
+        position: relative;
+        z-index: -1;
     }
 
     .PB-3_grid-container {
