@@ -1,0 +1,101 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="328" height="209">
+
+<g transform="matrix(0.54214877 0 0 0.4707207 0 0)">
+	<g>
+		<g transform="matrix(1 0 0 1 55 55)">
+			<g>
+                <path d="M0 8C 0 3.581722 3.581722 0 8 0L8 0L437 0C 441.41827 0 445 3.581722 445 8L445 8L445 276C 445 280.41827 441.41827 284 437 284L437 284L8 284C 3.581722 284 0 280.41827 0 276L0 276L0 8z" stroke="none" fill="#000000" fill-rule="nonzero" />
+			</g>
+			<g>
+                <path d="M0 8C 0 3.581722 3.581722 0 8 0L8 0L437 0C 441.41827 0 445 3.581722 445 8L445 8L445 276C 445 280.41827 441.41827 284 437 284L437 284L8 284C 3.581722 284 0 280.41827 0 276L0 276L0 8z" stroke="none" fill="#1B262F" fill-rule="nonzero" />
+			</g>
+		</g>
+        <path d="M63 55L492 55L63 55L492 55L492 87L55 87L55 63L63 55L492 55L492 87L55 87L55 63L63 55z" stroke="none" fill="#2E3F4D" fill-rule="nonzero" />
+		<g transform="matrix(1 0 0 1 71 67)">
+            <path d="M16 8C 16 10.209139 15.218952 12.094757 13.656855 13.656855C 12.094757 15.218952 10.209139 16 8 16C 5.790861 16 3.9052434 15.218952 2.3431458 13.656855C 0.78104866 12.094757 0 10.209139 0 8C 0 5.790861 0.78104866 3.9052434 2.3431458 2.3431458C 3.9052434 0.78104866 5.790861 0 8 0C 10.209139 0 12.094757 0.78104866 13.656855 2.3431458C 15.218952 3.9052434 16 5.790861 16 8C 16 8.093094 15.998376 8.186159 15.995127 8.279196" stroke="none" fill="#BA4270" fill-rule="nonzero" />
+            <path d="M38.4 8C 38.4 10.209139 37.618954 12.094757 36.056854 13.656855C 34.49476 15.218952 32.60914 16 30.4 16C 28.19086 16 26.305243 15.218952 24.743145 13.656855C 23.18105 12.094757 22.4 10.209139 22.4 8C 22.4 5.790861 23.18105 3.9052434 24.743145 2.3431458C 26.305243 0.78104866 28.19086 0 30.4 0C 32.60914 0 34.49476 0.78104866 36.056854 2.3431458C 37.618954 3.9052434 38.4 5.790861 38.4 8C 38.4 8.093094 38.398376 8.186159 38.395126 8.279196" stroke="none" fill="#527695" fill-rule="nonzero" />
+            <path d="M60.8 8C 60.8 10.209139 60.01895 12.094757 58.456852 13.656855C 56.89476 15.218952 55.00914 16 52.8 16C 50.59086 16 48.705242 15.218952 47.143147 13.656855C 45.581047 12.094757 44.8 10.209139 44.8 8C 44.8 5.790861 45.581047 3.9052434 47.143147 2.3431458C 48.705242 0.78104866 50.59086 0 52.8 0C 55.00914 0 56.89476 0.78104866 58.456852 2.3431458C 60.01895 3.9052434 60.8 5.790861 60.8 8C 60.8 8.093094 60.798378 8.186159 60.795128 8.279196" stroke="none" fill="#36536B" fill-rule="nonzero" />
+		</g>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="86" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="86" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+&lt;form id=&quot;form-id&quot; method=&quot;GET&quot;&gt; &lt;/form&gt;
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="300.957" y="86" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="106" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="106" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+&lt;script
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="73.587" y="106" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="126" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="126" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+src=&quot;https://loremipsum.com/api.js&quot;
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="254.32599" y="126" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="146" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="146" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+data-client-name=&quot;Your Company&apos;s Name&quot;
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="299.332" y="146" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="166" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="166" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+data-form-id=&quot;form-id&quot;
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="181.37" y="166" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="186" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="186" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+data-key=&quot;test_key&quot;
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="156.87799" y="186" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="206" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="206" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+data-product=&quot;transactions&quot;
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="208.89099" y="206" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="226" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="226" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+data-env=&quot;sandbox&quot;&gt;
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="165.83499" y="226" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="246" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+
+		</text>
+		<text transform="matrix(1 0 0 1 55 55)" x="32" y="246" style="fill:#FBFCFE;font-family:ABeeZee;" font-size="13">
+&lt;/script&gt;
+		</text>
+	</g>
+</g>
+</svg>

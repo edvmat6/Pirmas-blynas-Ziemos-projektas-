@@ -1,0 +1,34 @@
+<svg width="412" height="251" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <filter x="-24.2%" y="-37.9%" width="159.6%" height="193.3%" filterUnits="objectBoundingBox" id="a">
+   <feGaussianBlur stdDeviation="40" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+  </filter>
+  <rect id="b" x="0" y="0" width="445" height="284" rx="8"/>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <g stroke="null" id="svg_2">
+    <use stroke="null" fill="#000" filter="url(#a)" xlink:href="#b" y="-98.96916" x="-134.35114" id="svg_3" transform="matrix(0.92735 0 0 0.887324 124.526 87.6057)"/>
+    <use stroke="null" fill="#1B262F" xlink:href="#b" y="-98.96916" x="-134.35114" id="svg_4" transform="matrix(0.92735 0 0 0.887324 124.526 87.6057)"/>
+   </g>
+   <path d="m7.35394,0.78788l397.83334,0a7.4188,6.33803 0 0 1 7.4188,6.33803l0,25.35211l-412.67095,0l0,-25.35211a7.4188,6.33803 0 0 1 7.4188,-6.33803l0.00001,0z" fill="#2E3F4D" id="svg_5" stroke="null"/>
+   <g id="svg_6" stroke="null">
+    <circle fill="#BA4270" cx="22.19154" cy="16.63295" r="6.33803" id="svg_7" stroke="null"/>
+    <circle fill="#527695" cx="42.96419" cy="16.63295" r="6.33803" id="svg_8" stroke="null"/>
+    <circle fill="#36536B" cx="63.73684" cy="16.63295" r="6.33803" id="svg_9" stroke="null"/>
+   </g>
+   <text font-family="RobotoMono-Regular, Roboto Mono" font-size="13" fill="#FBFCFE" y="-41.47659" x="-76.1207" id="svg_10" transform="matrix(0.92735 0 0 0.792254 124.526 90.6479)" stroke="null">
+    <tspan x="-99.1207" y="-10.47659" id="svg_11" stroke="null">&lt;form id="form-id" method="GET"&gt; &lt;/form&gt;</tspan>
+    <tspan x="-99.1207" y="9.52341" id="svg_12" stroke="null">&lt;script</tspan>
+    <tspan x="-99.1207" y="29.52341" id="svg_13" stroke="null">src="https://loremipsum.com/api.js"</tspan>
+    <tspan x="-99.1207" y="49.52341" id="svg_14" stroke="null">data-client-name="Your Company's Name"</tspan>
+    <tspan x="-99.1207" y="69.52341" id="svg_15" stroke="null">data-form-id="form-id"</tspan>
+    <tspan x="-99.1207" y="89.52341" id="svg_16" stroke="null">data-key="test_key"</tspan>
+    <tspan x="-99.1207" y="109.52341" id="svg_17" stroke="null">data-product="transactions"</tspan>
+    <tspan x="-99.1207" y="129.52341" id="svg_18" stroke="null">data-env="sandbox"&gt;</tspan>
+    <tspan x="-99.1207" y="149.52341" id="svg_19" stroke="null">&lt;/script&gt;</tspan>
+   </text>
+  </g>
+ </g>
+</svg>

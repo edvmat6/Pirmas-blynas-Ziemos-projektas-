@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 .navbar-parent {
     width: 100%;
     position: fixed;
@@ -197,7 +201,7 @@
         padding-bottom: 1rem;
     }
 
-    #demoButton{
+    #demoButton-nav{
         /* Layout */
         width: 60vw;
         height: 3rem;
