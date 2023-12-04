@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* PB4 uzduoties dalis */
+
+/* @media only screen and (min-width: 300px) and (max-width: 375px) { */
+.main-PB4-main-box {
+  width: 375px;
+  height: 481px;
+  background: #edf3f8;
+  font-size: 36px;
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  line-height: 36px;
+  word-wrap: break-word;
+  margin: 0 auto;
+}
+
+.main-PB4-bash-text {
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  width: 328px;
+  height: 209px;
+}
+
+.main-PB4-bash-text img {
+  height: 100%;
+  width: 100%;
+  filter: drop-shadow(20px 20px 40px grey);
+}
+
+.main-PB4-text-easy {
+  width: 328px;
+  height: 144px;
+}
+
+.main-PB4-h2-text {
+  color: #36536b;
+  font-size: 36px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  line-height: 36px;
+  word-wrap: break-word;
+  text-align: center;
+  margin-bottom: 24px;
+  padding-left: 30px;
+}
+
+.main-PB4-p-text {
+  color: #6c8294;
+  font-size: 15px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+  text-align: center;
+  padding-left: 20px;
+}
+/* } */
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+  .main-PB4-main-box {
+    width: 768px;
+    height: 550px;
+  }
+  .main-PB4-bash-text {
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 48px;
+    width: 391px;
+    height: 250px;
+  }
+
+  .main-PB4-bash-text img {
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(20px 20px 40px grey);
+  }
+  .main-PB4-text-easy {
+    margin: 0 auto;
+    width: 573px;
+    height: 56px;
+  }
+
+  .main-PB4-h2-text {
+    color: #36536b;
+    font-size: 48px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    line-height: 56px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 24px;
+    /* padding-left: 20px; */
+  }
+  .main-PB4-p-text {
+    color: #6c8294;
+    font-size: 15px;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+    text-align: center;
+    padding-left: 20px;
+  }
+}
+
+/* PB5 uzduoties dalis */
+
+.main-PB5-main-box {
+  width: 375px;
+  height: 481px;
+  background: #edf3f8;
+  font-size: 36px;
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  line-height: 36px;
+  word-wrap: break-word;
+  margin: 0 auto;
+}
+
+.main-PB5-box-mobile {
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  width: 375;
+  height: 280px;
+}
+.main-PB5-box-mobile img {
+  height: 100%;
+  width: 100%;
+  filter: drop-shadow(20px 20px 40px grey);
+}
+.main-PB5-text-simple {
+  width: 328px;
+  height: 144px;
+}
+.main-PB5-h2-text {
+  color: #36536b;
+  font-size: 36px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  line-height: 36px;
+  word-wrap: break-word;
+  text-align: center;
+  margin-bottom: 24px;
+  padding-left: 30px;
+}
+.main-PB5-p-text {
+  color: #6c8294;
+  font-size: 15px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+  text-align: center;
+  padding-left: 30px;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+  .main-PB5-main-box {
+    width: 768px;
+    height: 550px;
+  }
+  .main-PB5-box-mobile {
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 48px;
+    width: 358px;
+    height: 319px;
+  }
+
+  .main-PB5-box-mobile img {
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(20px 20px 40px grey);
+  }
+  .main-PB5-text-simple {
+    margin: 0 auto;
+    width: 573px;
+    height: 56px;
+  }
+
+  .main-PB5-h2-text {
+    color: #36536b;
+    font-size: 48px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    line-height: 56px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 24px;
+    /* padding-left: 20px; */
+  }
+  .main-PB5-p-text {
+    color: #6c8294;
+    font-size: 15px;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+    text-align: center;
+    padding-left: 20px;
+  }
+}
