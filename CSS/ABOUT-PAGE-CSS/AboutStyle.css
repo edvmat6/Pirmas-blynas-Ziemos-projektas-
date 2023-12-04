@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+/* Body Styling */
+body {
+    background: #EDF3F8;
+    margin: 0;
+}
+
+/* Common styles for text elements */
+h1, p {
+    margin: 0; /* Remove default margins */
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* about page pr1 */
+.about-page-pr1 {
+    padding: 10vw 14vw;
+}
+
+.about-page-pr1-head {
+    width: 100%;
+    max-width: 40.625rem;
+    height: auto;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    padding-bottom: 5.5rem;
+}
+
+/* about-page-pr-obj (reusable) */
+.about-page-pr-obj {
+    width: 100%;
+    max-width: 57.5rem;
+    gap: 1.875rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-bottom: 5rem;
+}
+
+.about-page-pr-obj h1 {
+    width: 100%;
+    max-width: 15.9375rem;
+    font-size: 2rem;
+    line-height: 1.25;
+}
+
+.about-page-pr-obj p {
+    width: 100%;
+    width: 39.6875rem;
+
+    max-width: 39.6875rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+    padding-bottom: 1.5rem;
+
+    color: #6C8294;
+    
+    font-family: Public Sans;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 186.667% */
+}
+
+/* about page pr2 */
+.about-page-pr2 {
+    background-image: url("/IMG/about/desktop/image-team-members.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+}
+
+/* about-page-pr3 */
+.about-page-pr3 {
+    padding: 2rem 10rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.about-page-pr3-obj {
+    width: 100%;
+    max-width: 21.875rem;
+    height: auto;
+    border-top: 2px solid rgba(54, 83, 107, 0.25);
+    border-bottom: 2px solid rgba(54, 83, 107, 0.25);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.about-page-pr3-obj p {
+    opacity: 0.7;
+    color: #36536B;
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+.about-page-pr3-obj h1 {
+    color: #BA4270;
+    font-size: 2.5rem;
+    line-height: 1.8;
+}
+
+/* about-page-pr4 */
+.about-page-pr4 {
+    padding: 5vw 10vw;
+}
+
+/* Media Query for Tablet Screens */
+@media only screen and (max-width: 768px) {
+    .about-page-pr1 {
+        padding: 5vw;
+    }
+
+    .about-page-pr2 {
+        background-image: url("/IMG/about/tablet/image-team-members.jpg");
+        height: 20rem;
+    }
+
+    .about-page-pr3 {
+        padding: 1rem 0;
+    }
+
+    .about-page-pr3-obj {
+        max-width: 18.75rem;
+    }
+
+    .about-page-pr4 {
+        padding: 5vw;
+    }
+}
+
+@media (max-width: 765px){
+    .about-page-pr1 {
+        padding-top: 5rem;
+    }
+
+    .about-page-pr1-head{
+        font-size: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+
+        text-align: center;
+    }
+
+    .about-page-pr-obj{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+
+    }
+
+    .about-page-pr-obj h1{
+        font-size: 1.5rem;
+    }
+
+    .about-page-pr-obj p{
+        font-size: 0.9375rem;
+        width: 20.4375rem;
+    }
+    /* background */
+    .about-page-pr2 {
+        width: 80%;
+        width: 100%;
+        background-image: url("/IMG/about/mobile/image-team-members.jpg");
+    }
+
+    .about-page-pr3{
+        width: 80%;
+        transform: translateX(20%);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+
+        border-top: 2px solid rgba(54, 83, 107, 0.25);
+        border-bottom: 2px solid rgba(54, 83, 107, 0.25);
+
+        margin-top: 1rem;
+    }
+
+    .about-page-pr3-obj{
+        border: 0;
+    }
+}
