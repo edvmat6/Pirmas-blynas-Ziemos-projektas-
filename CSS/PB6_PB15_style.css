@@ -1,0 +1,307 @@
+@font-face {
+  font-family: 'DM Serif Display';
+  src: url(/FONTS/DMSerifDisplay-Regular.ttf) format('truetype');
+  font-family: 'Public Sans';
+  src: url(/FONTS/PublicSans-VariableFont_wght.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  /* Sriftai */
+}
+
+.PB6irPB15 {
+  margin: 0;
+  padding: 0;
+  background: #EDF3F8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.PB6 {
+  width: 328px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+
+#PB6image {
+  margin-top: 31px;
+  margin-bottom: 17px;
+  width: 106px;
+  height: 106px;
+  flex-shrink: 0;
+}
+
+#PB6textTitle {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 23px;
+  margin-right: 23px;
+  width: 328px;
+  height: 25px;
+  color: #36536B;
+  text-align: center;
+  font-family: 'Public Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.138px;
+}
+
+#PB6textContent {
+  width: 328px;
+  height: 100px;
+  color: #6C8294;
+  text-align: center;
+  font-family: 'Public Sans';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.115px;
+  margin-bottom: 17px;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+
+
+#PB15 {
+  width: 328px;
+  margin-left: 23px;
+  margin-right: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#mobileTextContainer {
+  /* "Ready to start" teksto parametrai nuo... */
+  margin-bottom: 16px;
+  margin-top: 60px;
+  color: #36536B;
+  text-align: center;
+  font-family: 'DM Serif Display';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.246px;
+}
+
+#mobileTextContainer h3 {
+  font-family: 'DM Serif Display';
+  font-size: 32px;
+  width: 328px;
+  height: 36px;
+  margin: 0;
+  text-align: center;
+  /* ...iki */
+}
+
+#emailInput {
+  /* "Enter email address" mygtuko parametrai */
+  width: 327px;
+  height: 48px;
+  border-radius: 24px;
+  flex-shrink: 0;
+  background: #FBFCFE;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border: none;
+  margin-bottom: 8px;
+  margin-top: 16px;
+  text-indent: 27px;
+}
+
+#emailInput::placeholder {
+  /* "Enter email address" teksto parametrai*/
+  color: #36536B;
+  opacity: 0.5;
+  font-family: 'Public Sans';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  text-indent: 27px;
+}
+
+#scheduleDemoButton {
+  /* "Schedule a demo" mygtuko parametrai */
+  width: 327px;
+  height: 48px;
+  border-radius: 24px;
+  flex-shrink: 0;
+  background: #BA4270;
+  color: white;
+  font-family: 'Public Sans';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.246px;
+  border: none;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 80px;
+}
+
+/* PB6irPB15 tablet */
+@media (min-width: 768px) {
+
+  .PB6 {
+    width: 100%;
+    margin: 50px 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #PB6image {
+    width: 88px;
+    height: 88px;
+  }
+
+  .personalFinances,
+  .bankingCoverage,
+  .consumerPayments {
+    width: 223px;
+  }
+
+  #PB6textTitle {
+    width: 223px;
+    font-weight: 700;
+    letter-spacing: -0.138px;
+  }
+
+  #PB6textContent {
+    width: 223px;
+    height: 150px;
+    margin: 10px;
+  }
+
+
+  #PB6textTitle,
+  #PB6textContent {
+    width: 100%;
+  }
+
+  #PB15 {
+    width: 100%;
+
+  }
+
+  #mobileTextContainer {
+    /* "Ready to start" teksto parametrai nuo... */
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+
+  #mobileTextContainer h3 {
+
+    font-size: 48px;
+    width: 445px;
+    height: 56px;
+    letter-spacing: -0.369px;
+
+    /* ...iki */
+  }
+
+  #emailInput {
+    width: 445px;
+    margin-bottom: 100px;
+  }
+
+  #scheduleDemoButton {
+    /* "Schedule a demo" mygtuko parametrai */
+    width: 173px;
+    position: absolute;
+    right: 160px;
+    bottom: 288px;
+  }
+}
+
+
+/* PB6irPB15 DESKTOP  */
+
+
+@media (min-width: 1440px) {
+  .PB6irPB15 {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .personalFinances,
+  .bankingCoverage,
+  .consumerPayments {
+    width: 350px;
+
+  }
+
+
+  #PB6image {
+    width: 106px;
+    height: 106px;
+  }
+
+  #PB6textTitle {
+    /* margin-top: 16px;
+      margin-bottom: 16px;
+      margin-left: 23px;
+      margin-right: 23px; */
+    width: 350px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.138px;
+  }
+
+  #PB6textContent {
+    width: 350px;
+    height: 100px;
+    font-size: 15px;
+  }
+
+  .PB15 {
+    width: 1440px;
+    display: flex;
+  }
+
+  #mobileTextContainer {
+    width: 445px;
+    height: 56px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  #mobileTextContainer h3 {}
+
+  #emailInput {
+    width: 445px;
+    height: 48px;
+    float: right;
+    margin: 0;
+    position:absolute;
+    right: 160px;
+    bottom: 250px;
+  }
+
+  #scheduleDemoButton {
+    /* "Schedule a demo" mygtuko parametrai */
+    width: 173px;
+    position:inherit;
+    margin: 0;
+    position:absolute;
+    right: 160px;
+    bottom: 251px;
+  }
+}
