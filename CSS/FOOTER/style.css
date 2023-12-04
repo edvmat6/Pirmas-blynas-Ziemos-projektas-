@@ -76,6 +76,11 @@ body{
 	text-align: center;
 }
 
+.demoButton p{
+	transform: translateY(80%);
+	text-align: center;
+}
+
 .demoButton:hover{
 	background: #DA6D97;
 	cursor: pointer;
