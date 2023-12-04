@@ -11,11 +11,11 @@
   width: 375px;
   height: 481px;
   background: #edf3f8;
-  font-size: 36px;
-  font-family: "DM Serif Display", sans-serif;
+  /* font-size: 36px; */
+  /* font-family: "DM Serif Display", sans-serif;
   font-weight: 400;
   line-height: 36px;
-  word-wrap: break-word;
+  word-wrap: break-word; */
   margin: 0 auto;
 }
 
@@ -34,6 +34,7 @@
 }
 
 .main-PB4-text-easy {
+  margin: 0 auto;
   width: 328px;
   height: 144px;
 }
@@ -61,50 +62,49 @@
   padding-left: 20px;
 }
 /* } */
+
+/* PB4 Tablet dalis */
+
 @media only screen and (min-width: 767px) and (max-width: 1000px) {
   .main-PB4-main-box {
     width: 768px;
-    height: 550px;
+    height: 500px;
   }
   .main-PB4-bash-text {
-    margin: 0 auto;
-    padding-top: 30px;
     margin-bottom: 48px;
     width: 391px;
     height: 250px;
   }
 
-  .main-PB4-bash-text img {
-    height: 100%;
-    width: 100%;
-    filter: drop-shadow(20px 20px 40px grey);
-  }
   .main-PB4-text-easy {
-    margin: 0 auto;
     width: 573px;
-    height: 56px;
+    height: 136px;
   }
 
   .main-PB4-h2-text {
-    color: #36536b;
     font-size: 48px;
-    font-family: "DM Serif Display", serif;
-    font-weight: 400;
     line-height: 56px;
-    word-wrap: break-word;
-    text-align: center;
-    margin-bottom: 24px;
-    /* padding-left: 20px; */
   }
-  .main-PB4-p-text {
-    color: #6c8294;
-    font-size: 15px;
-    font-family: "Public Sans", sans-serif;
-    font-weight: 400;
-    line-height: 28px;
-    word-wrap: break-word;
-    text-align: center;
-    padding-left: 20px;
+}
+
+/* PB4 Desktop dalis */
+
+@media only screen and (min-width: 1000px) and (max-width: 2440px) {
+  .main-PB4-main-box {
+    width: 1440px;
+    height: 500px;
+    display: grid;
+    grid-auto-flow: column;
+  }
+  .main-PB4-bash-text {
+    width: 445px;
+    height: 280px;
+    margin-top: 90px;
+  }
+  .main-PB4-text-easy {
+    width: 445px;
+    height: 164px;
+    margin-top: 150px;
   }
 }
 
@@ -114,11 +114,6 @@
   width: 375px;
   height: 481px;
   background: #edf3f8;
-  font-size: 36px;
-  font-family: "DM Serif Display", sans-serif;
-  font-weight: 400;
-  line-height: 36px;
-  word-wrap: break-word;
   margin: 0 auto;
 }
 
@@ -128,6 +123,7 @@
   margin-bottom: 30px;
   width: 375;
   height: 280px;
+  grid-area: a;
 }
 .main-PB5-box-mobile img {
   height: 100%;
@@ -137,6 +133,7 @@
 .main-PB5-text-simple {
   width: 328px;
   height: 144px;
+  grid-area: b;
 }
 .main-PB5-h2-text {
   color: #36536b;
@@ -159,6 +156,8 @@
   text-align: center;
   padding-left: 30px;
 }
+
+/* PB5 Tablet dalis */
 
 @media only screen and (min-width: 767px) and (max-width: 1000px) {
   .main-PB5-main-box {
@@ -204,5 +203,17 @@
     word-wrap: break-word;
     text-align: center;
     padding-left: 20px;
+  }
+}
+
+/* PB5 Desktop dalis */
+
+@media only screen and (min-width: 1000px) and (max-width: 2440px) {
+  .main-PB5-main-box {
+    width: 1440px;
+    height: 500px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-areas: " b a ";
   }
 }
