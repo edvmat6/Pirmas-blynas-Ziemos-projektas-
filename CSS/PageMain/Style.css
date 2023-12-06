@@ -1,51 +1,59 @@
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     * {
         margin: 0px;
         padding: 0px;
     }
 
+    /* --------------------------------------------------------------------------------------PB-2-MOBILE */
     .PB-2_background {
-        background-image: url(../IMG/bg-pattern-circle.svg);
+        background-image: url(../../IMG/bg-pattern-circle.svg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         position: absolute;
         top: -450px;
-        z-index: -1;
+        z-index: 1;
         height: 100%;
         width: 100%;
-
+        min-width: 375px;
     }
 
     .PB-2 {
+        min-width: 375px;
         width: 100%;
-
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #EDF3F8;
+        z-index: -1;
     }
 
     /* PB-2 Telefono paveikslelis*/
     .PB-2_illustration-phone-mockup {
         display: flex;
+        flex-direction: row;
         justify-content: center;
-       
     }
 
-
     .PB-2_illustration-phone-mockup img {
-
         margin-top: 110px;
         margin-left: 124px;
         margin-right: 123px;
         margin-bottom: 24px;
         /* width: 128px; */
         height: 240px;
-        
+        z-index: 2;
     }
 
     /* PB-2 teksto Start building dalis */
-
     .PB-2_content_container {
         margin-left: 24px;
         margin-right: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .PB-2_content_container h1 {
@@ -57,27 +65,29 @@
         line-height: 36px;
         letter-spacing: -0.246px;
         margin-bottom: 24px;
-
-
+        width: 327px;
     }
 
-    /* PB-2 Email laukas*/
-    /* .PB-2_acheduleDemo_input {} */
-
-    /* raso kad turi buti width 327px geriau naudoti 100% */
     .PB-2_acheduleDemo_input input {
-        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+
+    /* PB-2 Email laukas*/
+    .PB-2_acheduleDemo_input input {
+        width: 327px;
         height: 48px;
         flex-shrink: 0;
         border-radius: 24px;
         border: none;
         background: #FBFCFE;
         box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
-        text-align: center;
         margin-bottom: 24px;
-
-
+        text-indent: 27px;
     }
+
 
     #email::placeholder {
         color: #36536B;
@@ -86,16 +96,11 @@
         font-weight: 700;
         line-height: 17.63px;
         opacity: 50%;
-        padding-left: 27px;
-        padding-right: 158px;
-        padding-top: 16px;
-        padding-bottom: 14px;
-
     }
 
     /* PB-2 Migtukas */
     .PB-2_acheduleDemo_button {
-        width: 100%;
+        width: 327px;
         height: 48px;
         flex-shrink: 0;
         border-radius: 24px;
@@ -103,6 +108,7 @@
         border: none;
         color: #FBFCFE;
     }
+
 
     .PB-2_acheduleDemo_button span {
         font-family: 'Public Sans', sans-serif;
@@ -121,23 +127,16 @@
         background: #DA6D97;
     }
 
-
-
-
     /* PB-2 Contact US dalis */
-    .PB-2_contactUs {
+    .PB-2_contactUs p {
         color: #6C8294;
         font-family: 'Public Sans', sans-serif;
+        font-style: normal;
         font-size: 15px;
         font-weight: 400;
-        text-align: left;
-        line-height: 18px;
-        margin-right: 52px;
-        margin-left: 50px;
+        line-height: normal;
         margin-top: 24px;
         margin-bottom: 79px;
-        width: 225px;
-        
     }
 
     .PB-2_contactUs a {
@@ -146,128 +145,117 @@
         font-size: 15px;
         font-weight: 700;
         text-decoration: none;
+        margin: 0;
     }
 
+    .PB-2_h1,
+    .PB-2_acheduleDemo_input,
+    .PB-2_contactUs {
+        text-align: center;
+    }
 
-
-
+    /* ------------------------------------------------------------------------------------------------PB-3-MOBILE */
     .PB-3 {
         background-color: #1B262F;
-        position: relative;
-        z-index: -1;
         width: 100%;
-        height: 100%;
+        height: auto;
+        min-width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+    
 
     .PB-3_grid-container {
         background-color: #1B262F;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
-
+        width: 376px;
     }
 
     .grid-item_1 {
-        margin-top: 85.87px;
-        margin-bottom: 44.13px;
-        margin-left: 50px;
+        padding-top: 85.87px;
+        padding-bottom: 44.13px;
+        padding-left: 50px;
     }
 
     .grid-item_2 {
-        margin-top: 80px;
-        margin-right: 48.02px;
-        margin-bottom: 42.25px;
+        padding-top: 80px;
+        padding-right: 48.02px;
+        padding-bottom: 42.25px;
     }
 
     .grid-item_3 {
-        margin-left: 48px;
-        margin-bottom: 40px;
+        padding-left: 48px;
+        padding-bottom: 40px;
     }
 
     .grid-item_4 {
-        margin-right: 47.41px;
-        margin-bottom: 48.01px;
+        padding-right: 47.41px;
+        padding-bottom: 48.01px;
     }
 
     .grid-item_5 {
-        margin-left: 56px;
-        margin-bottom: 56px;
+        padding-left: 56px;
+        padding-bottom: 56px;
     }
 
     .grid-item_6 {
-        margin-right: 55.51px;
-        margin-bottom: 57.73px;
+        padding-right: 55.51px;
+        padding-bottom: 57.73px;
     }
 
     /* Atstumai tarp elementų */
 
     .grid-item_2 {
-        margin-left: 49.98px;
+        padding-left: 49.98px;
         /* Atstumas tarp 1 ir 2 */
     }
 
     .grid-item_4 {
-        margin-left: 56.59px;
+        padding-left: 56.59px;
         /* Atstumas tarp 3 ir 4 */
     }
 
     /* Atstumas tarp 5 ir 6 klaida ismatavimuose raso 71.49px*/
     .grid-item_6 {
-        margin-left: 49.98px;
+        padding-left: 49.98px;
     }
 
-    /* margin-right  klaida atstuma raso 170px */
     .grid-item_1 img {
-        margin-top: 5.87px;
-        margin-right: 1.7px;
-        margin-bottom: 5.13px;
         filter: brightness(0) invert(1);
         height: 15px;
         width: 107px;
     }
 
-    /* margin-left klaida raso 157px */
     .grid-item_2 img {
-        margin-left: 1.57px;
-        margin-right: 0.02px;
         filter: brightness(0) invert(1);
         height: 26px;
         width: 120px;
     }
 
-    /* margin-right klaida raso 165px */
     .grid-item_3 img {
-        margin-right: 1.65px;
+        /* margin-right: 1.65px; */
         filter: brightness(0) invert(1);
         height: 22px;
         width: 115px;
     }
 
-    /* margin-left klaida raso 172px  */
     .grid-item_4 img {
-        margin-top: 3.26px;
-        margin-bottom: 4.74px;
-        margin-left: 1.72px;
-        margin-right: 0.41px;
         filter: brightness(0) invert(1);
         height: 14px;
         width: 108px;
     }
 
-    /* margin-right klaida raso 185px */
     .grid-item_5 img {
-        margin-right: 1.85px;
         filter: brightness(0) invert(1);
         height: 27px;
         width: 79px;
     }
 
-    /* margin-left klaida raso 150px */
     .grid-item_6 img {
-        margin-top: 3.27px;
-        margin-bottom: 1.73px;
-        margin-left: 1.50px;
-        margin-right: 0.51px;
         filter: brightness(0) invert(1);
         height: 22px;
         width: 113px;
@@ -276,8 +264,11 @@
     .PB-3_teks_container {
         margin-left: 24px;
         margin-right: 24px;
-        margin-bottom: 16px;
         background-color: #1B262F;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .PB-3_teks_container>div:first-child {
@@ -306,14 +297,325 @@
         margin-left: 24px;
         margin-right: 24px;
         margin-bottom: 60px;
+        width: 327px;
     }
 
-    /* panaudoju display flex kad migtukas isliktu viduryje  */
-    .PB-3_button {
+    .PB-3_button button {
+        width: 129px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 24px;
+        margin-bottom: 60px;
+        border: 1px solid #FBFCFE;
+        background-color: #1B262F;
+        text-align: center;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 17.63px;
+        letter-spacing: -0.12px;
+        color: #FBFCFE;
+    }
+    .PB-3_button button:active {
+        background-color: #FBFCFE;
+        color: #1B262F;
+    }
+
+}
+
+/* ----------------------------------------------------------------------------------------------Mobile-done */
+
+
+/* -----------------------------------------------------------------------------------------------Tablet PB-2 */
+@media (min-width: 768px) and (max-width:1024px) {
+
+    .PB-2_background {
+        background-image: url(../../IMG/bg-pattern-circle.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: -663px;
+        height: 949px;
+        width: 100%;
+        z-index: 1;
+
+
+    }
+
+    .PB-2 {
+        min-width: 768px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        background-color: #EDF3F8;
+        z-index: -1;
+
+    }
+
+    /* PB-2 Telefono paveikslelis*/
+
+    .PB-2_illustration-phone-mockup img {
+        margin-top: 136px;
+        margin-left: 306.55px;
+        margin-right: 305.68px;
+        margin-bottom: 0px;
+        width: 141px;
+        height: 279px;
+        z-index: 2;
+    }
+
+    /* PB-2 teksto Start building dalis */
+
+    .PB-2_content_container {
+        padding: 97px;
+        padding: 98px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        margin-left: 99px;
-        margin-right: 99px;
+        align-items: center;
+        padding-top: 48.34px;
+    }
+
+    .PB-2_content_container h1 {
+        color: #36536B;
+        text-align: center;
+        height: 122px;
+        width: 573px;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+        margin-bottom: 22px;
+    }
+
+    /* PB-2 Email laukas*/
+    .PB-2_acheduleDemo_input {
+        display: flex;
+        flex-direction: row;
+        height: 48px;
+        padding-left: 65px;
+        margin-left: 63px;
+
+    }
+
+    .PB-2_acheduleDemo_input input {
+        width: 445px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 24px;
+        border: none;
+        background: #FBFCFE;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        text-indent: 27px;
+    }
+
+    #email::placeholder {
+        color: #36536B;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 17.63px;
+        opacity: 50%;
+    }
+
+    /* PB-2 Migtukas */
+    .PB-2_acheduleDemo_button {
+        width: 173px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 24px;
+        background: #BA4270;
+        border: none;
+        position: relative;
+        right: 173px;
+    }
+
+    .PB-2_acheduleDemo_button span {
+        color: #FBFCFE;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 17.63px;
+        letter-spacing: -0.12px;
+        margin-left: 26.5px;
+        margin-right: 24.5px;
+        margin-top: 16px;
+        margin-bottom: 14px;
+        height: 48px;
+    }
+
+    .PB-2_acheduleDemo_button:active {
+        background: #DA6D97;
+    }
+
+    /* PB-2 Contact US dalis */
+    .PB-2_contactUs {
+        height: 18px;
+        color: #6C8294;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 17.63px;
+        margin-top: 27px;
+
+    }
+
+    .PB-2_contactUs a {
+        color: #6C8294;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: none;
+        margin: 0%;
+    }
+
+    /* -----------------------------------------------------------------------------------------------PB-3-Tablet */
+    .PB-3 {
+        background-color: #1B262F;
+        min-width: 768px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .PB-3_grid-container {
+        background-color: #1B262F;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 768px;
+    }
+
+    .grid-item_1 {
+        padding-top: 95px;
+        padding-bottom: 54px;
+        padding-left: 116px;
+
+    }
+
+    .grid-item_2 {
+        padding-top: 88px;
+        padding-bottom: 39px;
+
+    }
+
+    .grid-item_3 {
+        padding-top: 90px;
+        padding-bottom: 45px;
+        padding-right: 116px;
+
+    }
+
+    .grid-item_4 {
+        padding-bottom: 72px;
+        padding-left: 116px;
+
+    }
+
+    .grid-item_5 {
+
+        padding-bottom: 64px;
+    }
+
+    .grid-item_6 {
+        padding-right: 116px;
+        padding-bottom: 67px;
+    }
+
+    /* Atstumai tarp elementų */
+    /* atstumas tarp 1 ir 2 */
+    .grid-item_2 {
+        padding-left: 62px;
+    }
+
+    /* atstumas tarp 2 ir 3  */
+    .grid-item_3 {
+        padding-left: 60px;
+    }
+
+    /* atstumas tarp 4 ir 5 */
+    .grid-item_5 {
+        padding-left: 85px;
+    }
+
+    /* atstumas tarp 5 ir 6 */
+    .grid-item_6 {
+        padding-left: 60px;
+    }
+
+    .grid-item_1 img {
+        filter: brightness(0) invert(1);
+        height: 17px;
+        width: 129px;
+
+    }
+
+    .grid-item_2 img {
+        filter: brightness(0) invert(1);
+        height: 31px;
+        width: 145px;
+    }
+
+    .grid-item_3 img {
+        filter: brightness(0) invert(1);
+        height: 27px;
+        width: 140px;
+    }
+
+    .grid-item_4 img {
+        filter: brightness(0) invert(1);
+        height: 17px;
+        width: 131px;
+    }
+
+    .grid-item_5 img {
+        filter: brightness(0) invert(1);
+        height: 33px;
+        width: 96px;
+    }
+
+    .grid-item_6 img {
+        filter: brightness(0) invert(1);
+        height: 26px;
+        width: 137px;
+    }
+
+    .PB-3_teks_container {
+        margin-left: 155px;
+        margin-right: 156px;
+        background-color: #1B262F;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .PB-3_teks_container>div:first-child {
+        width: 457px;
+        margin-bottom: 24px;
+        color: #FBFCFE;
+        text-align: center;
+        font-family: 'DM Serif Display', serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+    }
+
+    .PB-3_tekst {
+        width: 456px;
+        color: #FBFCFE;
+        text-align: center;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        opacity: 70%;
+        margin-bottom: 32px;
 
     }
 
@@ -325,9 +627,7 @@
         margin-bottom: 60px;
         border: 1px solid #FBFCFE;
         background-color: #1B262F;
-    }
-
-    .PB-3_button button a {
+        margin-bottom: 88px;
         color: #FBFCFE;
         text-align: center;
         font-family: 'Public Sans', sans-serif;
@@ -335,13 +635,6 @@
         font-weight: 700;
         line-height: 17.63px;
         letter-spacing: -0.12px;
-        padding-top: 16px;
-        padding-bottom: 14px;
-        width: 65px;
-        text-decoration: none;
-        /* padding-right: 32px;
-        padding-left: 32px; */
-        border-radius: 24px;
     }
 
     .PB-3_button button:active {
@@ -349,739 +642,290 @@
         color: #1B262F;
     }
 
-    .PB-3_button button a:active {
+}
+
+/* ----------------------------------------------------------------------------------------Tablet-Done---------------- */
+
+/*----------------------------------------------------------------------------------------PB-2--------------- Dekstop */
+@media (min-width: 1024px) {
+    .PB-2_background {
+        background-image: url(../../IMG/bg-pattern-circle.svg);
+        position: absolute;
+        top: -172px;
+        left: 800px;
+        z-index: -1;
+        height: 780px;
+        width: 780px;
+        z-index: 1;
+    }
+
+    .PB-2_background img {
+        width: 780px;
+        height: 760px;
+    }
+
+    .PB-2 {
+        background-color: #EDF3F8;
+        z-index: -1;
+    }
+
+    /* PB-2 Telefono paveikslelis*/
+    .PB-2_illustration-phone-mockup img {
+        position: relative;
+        top: 162.57px;
+        left: 919.57px;
+        width: 257.65px;
+        height: 498.86px;
+        z-index: 2;
+    }
+
+    /* PB-2 teksto Start building dalis */
+    .PB-2_content_container {
+        position: relative;
+        width: 546px;
+        height: 243px;
+        bottom: 254px;
+        left: 165px;
+        right: 729px;
+
+    }
+
+    .PB-2_h1 h1 {
+        font-family: 'DM Serif Display', serif;
+        font-size: 72px;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: -0.554px;
+        color: #36536B;
+    }
+
+    /* PB-2 Email laukas*/
+    .PB-2_acheduleDemo_input {
+        display: flex;
+        justify-content: row;
+        height: 48px;
+        width: 445px;
+        margin-top: 21px;
+        margin-bottom: 16px;
+    }
+
+    /* PB-2 Migtukas */
+    .PB-2_acheduleDemo_input input {
+        width: 100%;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 24px;
+        border: none;
+        background: #FBFCFE;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        padding-left: 27px;
+
+    }
+
+    #email::placeholder {
+        color: #36536B;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        opacity: 50%;
+    }
+
+    .PB-2_acheduleDemo_button {
+        width: 173px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 24px;
+        background: #BA4270;
+        border: none;
+        position: relative;
+        right: 173px;
+        color: #FBFCFE;
+        cursor: pointer;
+    }
+
+    .PB-2_acheduleDemo_button:hover {
+        background: #DA6D97;
+    }
+
+    /* PB-2 Contact US dalis */
+    .PB-2_contactUs {
+        color: #6C8294;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700px;
+        text-align: center;
+        height: 18px;
+        margin-right: 294px;
+        margin-left: 27px;
+        margin-bottom: 152px;
+        line-height: 17.63px;
+        width: 300px;
+    }
+
+    .PB-2_contactUs a {
+        color: #6C8294;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+        margin: 0%;
+    }
+
+    /* -------------------------------------------------------------------------------------PB-3----Dekstop */
+
+    .PB-3 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+        align-items: center;
+        background-color: #1B262F;
+        width: 100%;
+
+    }
+
+    .PB-3_grid-container {
+        background-color: #1B262F;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        width: 1440px;
+
+    }
+
+    .grid-item_1 {
+        padding-top: 95px;
+        padding-left: 116px;
+        padding-right: 62px;
+    }
+
+    .grid-item_2 {
+        padding-top: 88px;
+        padding-right: 60px;
+        padding-bottom: 39px;
+    }
+
+    .grid-item_3 {
+        padding-top: 90px;
+        padding-bottom: 45px;
+        padding-right: 116px;
+    }
+
+    .grid-item_4 {
+        padding-left: 116px;
+        padding-right: 132px;
+        padding-bottom: 72px;
+    }
+
+    .grid-item_5 {
+        padding-right: 110px;
+        padding-bottom: 64px;
+        padding-left: 25px;
+    }
+
+    .grid-item_6 {
+        padding-left: 3px;
+        padding-right: 116px;
+        padding-bottom: 67px;
+
+    }
+
+    .grid-item_1 img {
+        filter: brightness(0) invert(1);
+        height: 17px;
+        width: 129px;
+    }
+
+    .grid-item_2 img {
+        filter: brightness(0) invert(1);
+        height: 31px;
+        width: 145px;
+    }
+
+
+    .grid-item_3 img {
+        filter: brightness(0) invert(1);
+        height: 27px;
+        width: 140px;
+    }
+
+    .grid-item_4 img {
+        filter: brightness(0) invert(1);
+        height: 17px;
+        width: 131px;
+    }
+
+    .grid-item_5 img {
+        filter: brightness(0) invert(1);
+        height: 33px;
+        width: 96px;
+    }
+
+    .grid-item_6 img {
+        filter: brightness(0) invert(1);
+        height: 26px;
+        width: 137px;
+    }
+
+    /* -------------------------------------------------------------------------------------------------grida paziureti */
+    .PB-3_teks_container {
+        margin-left: 165px;
+        margin-right: 131px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        background-color: #1B262F;
+        width: 445px;
+        height: auto;
+
+    }
+
+    .PB-3_teks_container>div:first-child {
+        margin-bottom: 24px;
+        color: #FBFCFE;
+        font-family: 'DM Serif Display', serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+        width: 445px;
+        height: 56px;
+    }
+
+    .PB-3_tekst {
+        width: 445px;
+        height: 112px;
+        color: #FBFCFE;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        opacity: 0.7;
+        margin-bottom: 32px;
+    }
+ 
+    .PB-3_button button {
+        width: 129px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 24px;
+        border: 1px solid #FBFCFE;
+        background-color: #1B262F;
+        color: #FBFCFE;
+        text-align: center;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.115px;
+        cursor: pointer;
+    }
+
+    .PB-3_button button:hover {
         background-color: #FBFCFE;
         color: #1B262F;
     }
-
 }
-    /* Tablet dalis dalis  */
-    /* ---------------------------------------------------------------------------------------------------------------- */
-    @media (min-width: 768px) and (max-width:1024px) {
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
 
-        .PB-2_background {
-            background-image: url(../IMG/bg-pattern-circle.svg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-
-            position: absolute;
-            top: -663px;
-            z-index: -1;
-            height: 949px;
-            width: 100%;
-
-        }
-
-        .PB-2 {
-            width: 100%;
-
-        }
-
-
-        /* PB-2 Telefono paveikslelis*/
-        .PB-2_illustration-phone-mockup {
-            display: flex;
-            justify-content: center;
-
-
-        }
-
-        .PB-2_illustration-phone-mockup img {
-
-            margin-top: 136px;
-            margin-left: 306.55px;
-            margin-right: 305.68px;
-            margin-bottom: 22px;
-            /* width: 155.77px; */
-            height: 299.32px;
-
-        }
-
-        /* PB-2 teksto Start building dalis */
-
-        .PB-2_content_container {
-            margin-left: 97px;
-            margin-right: 98px;
-
-        }
-
-        .PB-2_h1 {
-
-            height: 122px;
-            margin-bottom: 22px;
-        }
-
-        .PB-2_h1 h1 {
-            color: #36536B;
-            text-align: center;
-            font-family: 'DM Serif Display', serif;
-            font-size: 48px;
-            font-weight: 400;
-            line-height: 56px;
-            letter-spacing: -0.37px;
-
-
-        }
-
-        /* PB-2 Email laukas*/
-        .PB-2_acheduleDemo_input {
-
-            display: flex;
-    
-            height: 48px;
-        }
-
-
-
-        /* raso kad turi buti width 327px geriau naudoti 100% */
-        .PB-2_acheduleDemo_input input {
-            width: 100%;
-            height: 48px;
-            flex-shrink: 0;
-            border-radius: 24px;
-            border: none;
-            background: #FBFCFE;
-            box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
-            
-        }
-
-        #email::placeholder {
-            color: #36536B;
-            font-family: 'Public Sans', sans-serif;
-            font-size: 15px;
-            font-weight: 700;
-            line-height: 17.63px;
-            opacity: 50%;
-            padding-left: 27px;
-            padding-right: 103px;
-            padding-top: 16px;
-            padding-bottom: 14px;
-            text-align: left;
-
-        }
-
-        /* PB-2 Migtukas */
-        .PB-2_acheduleDemo_button {
-            width: 173px;
-            height: 48px;
-            flex-shrink: 0;
-            border-radius: 24px;
-            background: #BA4270;
-            border: none;
-            position: relative;
-            right: 161px;
-        }
-
-        /* .PB-2_acheduleDemo_button button {} */
-
-        .PB-2_acheduleDemo_button span {
-            color: #FBFCFE;
-            font-family: 'Public Sans', sans-serif;
-            font-size: 15px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 17.63px;
-            letter-spacing: -0.12px;
-            margin-left: 26.5px;
-            margin-right: 24.5px;
-            margin-top: 16px;
-            margin-bottom: 14px;
-            height: 48px;
-        }
-
-        .PB-2_acheduleDemo_button:active {
-            background: #DA6D97;
-        }
-
-
-
-
-        /* PB-2 Contact US dalis */
-        .PB-2_contactUs {
-            color: #6C8294;
-            font-family: 'Public Sans', sans-serif;
-            font-size: 15px;
-            font-weight: 700px;
-            text-align: center;
-            height: 18px;
-            margin-right: 174px;
-            margin-left: 174px;
-            margin-top: 16px;
-            margin-bottom: 99px;
-            line-height: 17.63px;
-        }
-
-        .PB-2_contactUs a {
-            color: #6C8294;
-            font-family: 'Public Sans', sans-serif;
-            font-size: 15px;
-            font-weight: 700;
-            text-decoration: none;
-        }
-
-        .PB-3 {
-            background-color: #1B262F;
-            position: relative;
-            z-index: -1;
-            width: 100%;
-        }
-
-        .PB-3_grid-container {
-            background-color: #1B262F;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-
-
-        }
-
-        .grid-item_1 {
-            margin-top: 95px;
-            margin-bottom: 54px;
-            border-left: 116px;
-            border-right:62px;
-           
-         
-        }
-
-        .grid-item_2 {
-         
-            margin-top: 88px;
-            border-bottom: 39px;
-           
-        }
-
-        .grid-item_3 {
-            margin-top: 90px;
-            margin-bottom: 45px;
-            border-right: 116px;
-           
-        }
-
-        .grid-item_4 {
-            border-left: 116px;
-            border-right: 85px;
-            margin-bottom: 72px;
-        
-        }
-
-        .grid-item_5 {
-            
-            margin-bottom: 64px;
-           
-    
-        }
-
-        .grid-item_6 {
-            border-left: 87px;
-            border-right: 116px;
-            margin-bottom: 67px;
-            
-
-        }
-        
-        /* Atstumai tarp elementų */
-
-
-
-        /* margin-right  klaida atstuma raso 407px */
-        .grid-item_1 img {
-            margin-top: 7px;
-            margin-right: 4.7px;
-            margin-bottom: 7px;
-            filter: brightness(0) invert(1);
-            height: 17px;
-            width: 129px;
-        }
-
-        /* margin-left klaida raso 191px 
-        margin-right 200px*/
-        .grid-item_2 img {
-            margin-left: 1.91px;
-            margin-right: 2px;
-            filter: brightness(0) invert(1);
-            height: 31px;
-            width: 145px;
-        }
-
-        /* margin-left klaida raso 396px */
-        .grid-item_3 img {
-            margin-left: 3.96px;
-            margin-bottom: 2;
-            margin-top: 2;
-            filter: brightness(0) invert(1);
-            height: 27px;
-            width: 140px;
-        }
-
-        /* margin-right klaida raso 405px  */
-        .grid-item_4 img {
-            margin-top: 8px;
-            margin-bottom: 8px;
-            margin-right: 4.05px;
-            filter: brightness(0) invert(1);
-            height: 17px;
-            width: 131px;
-        }
-
-        /* margin-right klaida raso 224px 
-        margin-left klaida raaso 216px*/
-        .grid-item_5 img {
-            margin-left: 2.16px;
-            margin-right: 2.24px;
-            filter: brightness(0) invert(1);
-            height: 33px;
-            width: 96px;
-        }
-
-        /* margin-left klaida raso 399px */
-        .grid-item_6 img {
-            margin-top: 4px;
-            margin-bottom: 3px;
-            margin-left: 3.99px;
-            filter: brightness(0) invert(1);
-            height: 26px;
-            width: 137px;
-        }
-
-        .PB-3_teks_container {
-            margin-left: 155px;
-            margin-right: 156px;
-            margin-bottom: 168px;
-            background-color: #1B262F;
-        }
-
-        .PB-3_teks_container>div:first-child {
-            margin-bottom: 24px;
-            color: #FBFCFE;
-            text-align: center;
-            font-family: 'DM Serif Display', serif;
-            font-size: 48px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 56px;
-            letter-spacing: -0.37px;
-        }
-
-        .PB-3_tekst {
-            color: #FBFCFE;
-            text-align: center;
-            font-family: 'Public Sans', sans-serif;
-            font-size: 15px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 28px;
-            opacity: 70%;
-            margin-bottom: 32px;
-        }
-        
-
-        /* panaudoju display flex kad migtukas isliktu viduryje  */
-        .PB-3_button {
-            display: flex;
-            justify-content: center;
-            margin-left: 164px;
-            margin-right: 163px;
-        }
-
-        .PB-3_button button {
-            width: 129px;
-            height: 48px;
-            flex-shrink: 0;
-            border-radius: 24px;
-            margin-bottom: 60px;
-            border: 1px solid #FBFCFE;
-            background-color: #1B262F;
-            margin-bottom: 88px;
-        }
-
-        .PB-3_button button span {
-            color: #FBFCFE;
-            text-align: center;
-            font-family: 'Public Sans', sans-serif;
-            font-size: 15px;
-            font-weight: 700;
-            line-height: 17.63px;
-            letter-spacing: -0.12px;
-            padding-top: 16px;
-            padding-bottom: 14px;
-            width: 65px;
-            /* padding-right: 32px;
-        padding-left: 32px; */
-            border-radius: 24px;
-        }
-
-        .PB-3_button button:active {
-            background-color: #FBFCFE;
-            color: #1B262F;
-        }
-
-        .PB-3_button button span:active {
-            background-color: #FBFCFE;
-            color: #1B262F;
-        }
-    }
-
-    /* --------------------------------------------------------------------------------------------------------- */
-    /* Dekstop */
-    @media (min-width: 1024px) {
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
-
-        .PB-2_background {
-            background-image: url(../IMG/bg-pattern-circle.svg);
-            position: absolute;
-            top: -172px;
-            left: 800px;
-            z-index: -1;
-            height: 780px;
-            width: 780px;
-            z-index: 1;
-        }
-
-        .PB-2_background img {
-            width: 780px;
-            height: 760px;
-        }
-
-        .PB-2 {
-            background-color: #EDF3F8;
-        }
-
-        /* PB-2 Telefono paveikslelis*/
-        .PB-2_illustration-phone-mockup {
-            position: relative;
-            top: 162.57px;
-            left: 919.57px;
-            width: 257.65px;
-            height: 498.86px;
-            z-index: 1;
-
-        }
-
-
-
-        /* PB-2 teksto Start building dalis */
-
-        .PB-2_content_container {
-            position: relative;
-            width: 546px;
-            height: 345px;
-            bottom: 240px;
-            left: 165px;
-
-        }
-
-        /* .PB-2_h1 {} */
-
-        .PB-2_h1 h1 {
-            font-family: DM Serif Display;
-            font-size: 72px;
-            font-weight: 400;
-            line-height: 72px;
-            letter-spacing: -0.5538461804389954px;
-            text-align: left;
-            color: #36536B;
-        }
-
-        /* PB-2 Email laukas*/
-        .PB-2_acheduleDemo_input {
-            display: flex;
-            justify-content: row;
-            height: 48px;
-            margin-top: 21px;
-            margin-bottom: 16px;
-        }
-
-
-
-        /* raso kad turi buti width 327px geriau naudoti 100% */
-        .PB-2_acheduleDemo_input input {
-            width: 100%;
-            height: 48px;
-            flex-shrink: 0;
-            border-radius: 24px;
-            border: none;
-            background: #FBFCFE;
-            box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
-            padding-left: 27px;
-
-        }
-
-        #email::placeholder {
-            color: #36536B;
-            font-family: 'Public Sans', sans-serif;
-            font-size: 15px;
-            font-weight: 700;
-            line-height: 17.63px;
-            opacity: 50%;
-            padding-top: 16px;
-            padding-bottom: 14px;
-
-        }
-
-        /* PB-2 Migtukas */
-
-
-
-        .PB-2_acheduleDemo_button {
-            width: 173px;
-            height: 48px;
-            flex-shrink: 0;
-            border-radius: 24px;
-            background: #BA4270;
-            border: none;
-            position: relative;
-            right: 161px;
-
-        }
-
-        /* .PB-2_acheduleDemo_button span {} */
-
-        .PB-2_acheduleDemo_button:active {
-            background: #DA6D97;
-        }
-
-
-
-
-        /* PB-2 Contact US dalis */
-        .PB-2_contactUs {
-            color: #6C8294;
-            font-family: 'Public Sans', sans-serif;
-            font-size: 15px;
-            font-weight: 700px;
-            text-align: center;
-            height: 18px;
-            margin-right: 294px;
-            margin-left: 27px;
-            margin-bottom: 152px;
-            line-height: 17.63px;
-            width: 300px;
-        }
-
-        .PB-2_contactUs a {
-            color: #6C8294;
-            font-family: 'Public Sans', sans-serif;
-            font-size: 15px;
-            font-weight: 400;
-            line-height: 17.63px;
-            text-decoration: none;
-        }
-
-        /* .PB-2_contactUs a {} */
-
-
-        .PB-3 {
-            display: flex;
-            flex-direction: row-reverse;
-            background-color: #1B262F;
-            position: relative;
-            z-index: -1;
-            width: 100%;
-        }
-
-        .PB-3_grid-container {
-            background-color: #1B262F;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(2, auto);
-
-        }
-
-        .grid-item_1 {
-            margin-top: 95px;
-            margin-bottom: 54px;
-            margin-left: 116px;
-            margin-right: 62px;
-        }
-
-        .grid-item_2 {
-            margin-top: 88px;
-            margin-right: 60px;
-            margin-bottom: 39px;
-        }
-
-        .grid-item_3 {
-            margin-top: 90px;
-            margin-bottom: 45px;
-            margin-right: 116px;
-        }
-
-        .grid-item_4 {
-            margin-left: 116px;
-            margin-right: 132px;
-            margin-bottom: 72px;
-        }
-
-        .grid-item_5 {
-            margin-right: 110px;
-            margin-bottom: 64px;
-            margin-left: 25px;
-        }
-
-        .grid-item_6 {
-            margin-left: 3px;
-            margin-right: 116px;
-            margin-bottom: 67px;
-
-        }
-
-        /* Atstumai tarp elementų */
-
-
-
-        /* margin-right  klaida atstuma raso 407px */
-        .grid-item_1 img {
-            margin-top: 7px;
-            margin-right: 4.7px;
-            margin-bottom: 7px;
-            filter: brightness(0) invert(1);
-            height: 17px;
-            width: 129px;
-        }
-
-        /* margin-left klaida raso 191px 
-    margin-right 200px*/
-        .grid-item_2 img {
-            margin-left: 1.91px;
-            margin-right: 2px;
-            filter: brightness(0) invert(1);
-            height: 31px;
-            width: 145px;
-        }
-
-        /* margin-left klaida raso 396px */
-        .grid-item_3 img {
-            margin-left: 3.96px;
-            margin-bottom: 2;
-            margin-top: 2;
-            filter: brightness(0) invert(1);
-            height: 27px;
-            width: 140px;
-        }
-
-        /* margin-right klaida raso 405px  */
-        .grid-item_4 img {
-            margin-top: 8px;
-            margin-bottom: 8px;
-            margin-right: 4.05px;
-            filter: brightness(0) invert(1);
-            height: 17px;
-            width: 131px;
-        }
-
-        /* margin-right klaida raso 224px 
-    margin-left klaida raaso 216px*/
-        .grid-item_5 img {
-            margin-left: 2.16px;
-            margin-right: 2.24px;
-            filter: brightness(0) invert(1);
-            height: 33px;
-            width: 96px;
-        }
-
-        /* margin-left klaida raso 399px */
-        .grid-item_6 img {
-            margin-top: 4px;
-            margin-bottom: 3px;
-            margin-left: 3.99px;
-            filter: brightness(0) invert(1);
-            height: 26px;
-            width: 137px;
-        }
-
-        .PB-3_teks_container {
-            margin-left: 165px;
-            margin-right: 131px;
-            margin-bottom: 180px;
-            margin-top: 100px;
-            background-color: #1B262F;
-        }
-
-        .PB-3_teks_container>div:first-child {
-            margin-bottom: 24px;
-            width: 100%;
-            color: #FBFCFE;
-            text-align: left;
-            font-family: 'DM Serif Display', serif;
-            font-size: 48px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 56px;
-            letter-spacing: -0.37px;
-            font-family: DM Serif Display;
-        }
-
-        .PB-3_tekst {
-            width: 100%;
-            color: #FBFCFE;
-            text-align: left;
-            font-family: 'Public Sans', sans-serif;
-            font-size: 15px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 28px;
-            opacity: 70%;
-            margin-bottom: 32px;
-            letter-spacing: 0px;
-
-
-        }
-
-        /* ----------------------------------------------------------------------------baigiau */
-        /* panaudoju display flex kad migtukas isliktu viduryje  */
-        .PB-3_button {
-            display: flex;
-            justify-content: center;
-            margin-left: 164px;
-            margin-right: 163px;
-            
-        }
-
-        .PB-3_button-button {
-            width: 129px;
-            height: 48px;
-            flex-shrink: 0;
-            border-radius: 24px;
-            margin-bottom: 60px;
-            border: 1px solid #FBFCFE;
-            background-color: #1B262F;
-            margin-bottom: 88px;
-        }
-
-        .PB-3_button-button a {
-            color: #FBFCFE;
-            text-align: center;
-            font-family: 'Public Sans', sans-serif;
-            text-decoration: none;
-            font-size: 15px;
-            font-weight: 700;
-            line-height: 17.63px;
-            letter-spacing: -0.12px;
-            padding-top: 16px;
-            padding-bottom: 14px;
-            width: 65px;
-            /* padding-right: 32px;
-        padding-left: 32px; */
-            border-radius: 24px;
-        }
-
-        .PB-3_button-button:hover {
-            background-color: #FBFCFE;
-            color: #1B262F;
-            cursor: pointer;
-        }
-
-        .PB-3_button-button a:hover {
-            background-color: #FBFCFE;
-            color: #1B262F;
-            cursor: pointer;
-        }
-    }
+/* ---------------------------rutuliai  */
