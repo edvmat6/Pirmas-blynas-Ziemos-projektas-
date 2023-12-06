@@ -2,27 +2,22 @@
 // PB-2 EMAIL LAUKAS
 
 function scheduleDemo() {
-    var email = document.getElementById('email').value.trim();
+    var email = document.getElementById('email').value;
 
-    var lietuviskiSimboliai = /[ąčęėįšųūž]/i.test(email.split('@')[0]);
+    var lietuviskiSimboliai = /[ąčęėįšųūž]/i.test(email);
+    var specSimboliaiMasyvas = "!@#$%^&*(),.?\":{}|<>";
 
-    var specSimboliaiMasyvas = "!#$%^&*()',?\":{}|<>";
+    var emailas = email.split('@')[0];
 
-    var emailas = email.split('@');
-    var specSimboliai = [...emailas[0]].some(char => specSimboliaiMasyvas.includes(char));
+    var specSimboliai = [...emailas].some(char => specSimboliaiMasyvas.includes(char));
 
-    var etSimboliai = email.split('@').length === 2;
-    var poAtSimbolioSimboliai = emailas[1].length >= 3;
-
-    var ilgisIkiAtSimbolio = emailas[0].length <= 20;
-
-    if (email === "" || !etSimboliai || !poAtSimbolioSimboliai) {
+    if (email === "") { 
         alert('Įveskite el. paštą.');
-    } else if (!ilgisIkiAtSimbolio) {
+    } else if (email.length > 20) {
         alert('El. paštas turi būti ne ilgesnė kaip 20 simbolių.');
-    } else if (lietuviskiSimboliai || specSimboliai || !etSimboliai) {
-        alert('El. pašto adrese negali būti lietuviškų raidžių, spec. simbolių.');
+    } else if (lietuviskiSimboliai || specSimboliai) {
+        alert('El. pašto adrese negali būti lietuviškų raidžių arba spec. simbolių.');
     } else {
-        alert('Jūs teisingai įvedėte el. pašto adresą!');
+        alert('Sveiki!');
     }
 }
