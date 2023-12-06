@@ -54,6 +54,11 @@ body{
 	opacity: 0.5;
 	margin-left: 27px;
 	opacity: 0.5;
+	
+}
+
+.eMailBox p{
+	transform: translateY(80%);
 }
 
 #eMailText:hover{
