@@ -9,7 +9,7 @@ body{
 
 .PB18{					/*Ready to Start? group*/
 	min-width: 375px;
-	height: 180px;
+	height: 323px;
 	background: #EDF3F8;
 	display: flex;
 	flex-direction: column;
@@ -24,7 +24,7 @@ body{
 	/*font-weight: 400px;*/
 	line-height: 36px;
 	letter-spacing: -0.246px;
-	margin-top: 0px;
+	margin-top: 63px;
 	margin-bottom: 32px;
 }
 
@@ -32,6 +32,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-bottom: 80px;
 }
 .eMailBox{				/*Mobile version - email box arguments*/
 	width: 327px;
@@ -156,7 +157,7 @@ a:hover{
 @media screen and (min-width: 768px) {		/*Tablet*/
 	.PB18{					/*Tablet version - Ready to Start? part*/
 		width: 100%;
-		height: 144px;
+		height: 290px;
 		background: #EDF3F8;
 	}
 
@@ -164,6 +165,7 @@ a:hover{
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		margin-bottom: 100px;
 	}
 
 	.readyToStart{			/*Tablet version - Ready to start? text*/
@@ -212,7 +214,7 @@ a:hover{
 	}
 
 	.socNet{				/*Tablet version - SocNet group*/
-		margin: 0 12px 0 137px; 
+		margin: 0 40px 0 auto; 
 		display: flex;
 		flex-direction: row;
 		align-items: center; 
@@ -220,14 +222,14 @@ a:hover{
 		
 	.footerCircle{			/*Tablet version - circle*/
 		margin-top: 450px;
-		margin-left: -405px;
+		margin-left: -300px;
 	}
 }
 
 @media screen and (min-width: 1440px) {		/*Desktop*/
 	.PB18{					/*Desktop version - Ready to Start? part*/
 		width: 100%;
-		height: 56px;
+		height: 198px;
 		flex-direction: row;
 		justify-content: space-between;
 	}
@@ -243,6 +245,8 @@ a:hover{
 	}
 
 	.eMail_Demo{			/*Desktop version - emailbox and Demobutton arguments*/
+		margin-top: auto;
+		margin-bottom: auto;
 		margin-right: 165px;
 	}
 
@@ -260,12 +264,13 @@ a:hover{
 	}
 
 	.socNet{				/*Desktop version - SocNet group*/
-		margin-right: 164px; 
+		
+		margin-right: 165px; 
 		
 	}
 
 	.footerCircle{			/*Desktop version - circle*/
 		margin-top: 450px;
-		margin-left: -405px;
+		/* margin-left: -405px; */
 	}
 }
