@@ -30,6 +30,9 @@ h1, p {
     font-size: 3.5rem;
     line-height: 1.2;
     padding-bottom: 5.5rem;
+
+    color: #36536B;
+    
 }
 
 /* about-page-pr-obj (reusable) */
@@ -42,6 +45,9 @@ h1, p {
     align-items: center;
 
     margin-bottom: 5rem;
+
+    position: relative;
+    z-index: -10;
 }
 
 .about-page-pr-obj h1 {
@@ -49,6 +55,9 @@ h1, p {
     max-width: 15.9375rem;
     font-size: 2rem;
     line-height: 1.25;
+
+    color: #36536B;
+    transform: translateY(-90%);
 }
 
 .about-page-pr-obj p {
@@ -57,8 +66,6 @@ h1, p {
 
     max-width: 39.6875rem;
     font-size: 0.9375rem;
-    line-height: 1.75rem;
-    padding-bottom: 1.5rem;
 
     color: #6C8294;
     
@@ -85,6 +92,8 @@ h1, p {
     flex-direction: row;
     align-items: center;
     gap: 1.5rem;
+    position: relative;
+    z-index: -10;
 }
 
 .about-page-pr3-obj {
@@ -116,7 +125,7 @@ h1, p {
 }
 
 /* Media Query for Tablet Screens */
-@media only screen and (max-width: 768px) {
+@media (max-width: 960px) {
     .about-page-pr1 {
         padding: 5vw;
     }
@@ -128,6 +137,10 @@ h1, p {
 
     .about-page-pr3 {
         padding: 1rem 0;
+    }
+
+    .about-page-pr-obj h1{
+        transform: translateY(-100%);
     }
 
     .about-page-pr3-obj {
@@ -163,6 +176,7 @@ h1, p {
 
     .about-page-pr-obj h1{
         font-size: 1.5rem;
+        transform: translateY(40%);
     }
 
     .about-page-pr-obj p{
