@@ -25,4 +25,5 @@ function scheduleDemo() {
     } else {
         alert('Jūs teisingai įvedėte el. pašto adresą!');
     }
+    document.getElementById('email').value = '';
 }
