@@ -45,6 +45,9 @@ h1, p {
     align-items: center;
 
     margin-bottom: 5rem;
+
+    position: relative;
+    z-index: -10;
 }
 
 .about-page-pr-obj h1 {
@@ -89,6 +92,8 @@ h1, p {
     flex-direction: row;
     align-items: center;
     gap: 1.5rem;
+    position: relative;
+    z-index: -10;
 }
 
 .about-page-pr3-obj {
