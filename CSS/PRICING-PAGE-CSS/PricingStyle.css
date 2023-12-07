@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+body {
+    background: #EDF3F8;
+}
+
+/* checked & notChecked*/
+.checked svg{
+    padding-right: 1vw;
+}
+.notChecked{
+    opacity: 0.5;
+}
+.pricing-head {
+    padding-top: 8vw;
+    padding-left: 8vw;
+    color: #36536B;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.5vw;
+    font-weight: 400;
+    line-height: 3.5vw;
+    letter-spacing: -0.02694vw;
+}
+
+/* Pricing list */
+.pricing-list {
+    padding-top: 3vw;
+    padding-left: 8vw;
+    display: flex;
+    gap: 2vw;
+    flex-direction: row;
+    list-style: none;
+}
+
+/* Reusable obj */
+.pricing-chart-obj h2 {
+    color: #BA4270;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.8vw;
+    font-weight: 400;
+    line-height: 2.5vw;
+    letter-spacing: -0.01538vw;
+}
+
+.pricing-chart-obj p {
+    width: 21.875vw;
+    color: #6C8294;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 0.9375vw;
+    font-weight: 400;
+    line-height: 1.75vw;
+}
+
+.pricing-chart-obj h1 {
+    color: #36536B;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.5vw;
+    font-weight: 400;
+    line-height: 4.5vw;
+    letter-spacing: -0.02694vw;
+}
+
+.pricing-chart-obj button {
+    width: 10.5vw;
+    height: 3vw;
+    color: #36536B;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 0.9375vw;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.00719vw;
+    background: transparent;
+    border: 1px solid #36536B;
+    border-radius: 18px;
+    margin-top: 1.5vw;
+}
+
+.pricing-chart-obj button:hover{
+    cursor: pointer;
+    background: #36536B;
+    color: white;
+}
+
+.pricing-chart-obj-list {
+    border-top: 1px solid rgba(54, 83, 107, 0.25);
+    border-bottom: 2px solid rgba(54, 83, 107, 0.25);
+    list-style: none;
+}
+
+.pricing-chart-obj-list li {
+    color: #36536B;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 1.75vw;
+    margin-bottom: 0.5vw;
+}
+
+/* Media Query for Tablet */
+@media (max-width: 960px){
+    .pricing-head{
+        padding-top: 15vw;
+        padding-bottom: 2vw;
+        text-align: center;
+        margin-right: 5vw;
+
+
+        font-size: 5vw;
+    }
+    .pricing-list{
+        display: flex;
+        flex-direction: row;
+        gap: 10vw;
+
+    }
+
+    .pricing-chart-obj{
+        text-align: center;
+
+    }
+
+    .pricing-chart-obj h2{
+        font-size: 3vw;
+        padding-bottom: 1vw;
+    }
+
+    .pricing-chart-obj p{
+        font-size: 1.3vw;
+        padding-bottom: 1vw;
+    }
+
+    .pricing-chart-obj h1{
+        font-size: 4vw;
+        padding-bottom: 1vw;
+    }
+
+    .pricing-chart-obj-list li{
+        padding-top: 1vw;
+        font-size: 1.5vw;
+        padding-bottom: 1vw;
+    }
+
+    .pricing-chart-obj button{
+        width: 18.5vw;
+        height: 5vw;
+        
+        font-size: 1.4vw;
+    }
+}
+
+/* Media Query for Mobile */
+@media (max-width: 765px){
+    .pricing-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pricing-chart-obj h2{
+        font-size: 8vw;
+    }
+
+    .pricing-chart-obj p{
+        display: none;
+    }
+
+    .pricing-chart-obj h1{
+        margin-top: 8vw;
+        font-size: 10vw;
+        padding-bottom: 5vw;
+    }
+
+    .pricing-chart-obj-list li{
+        padding-top: 8vw;
+        font-size: 5vw;
+        padding-bottom: 8vw;
+    }
+
+    .pricing-chart-obj button{
+        width: 100%;
+        height: 12vw;
+
+        padding-left: 5vw;
+        padding-right: 5vw;
+        font-size: 5vw;
+    }
+
+
+}

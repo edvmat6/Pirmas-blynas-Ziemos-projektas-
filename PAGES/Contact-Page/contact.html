@@ -7,8 +7,8 @@
     <!-- navbar css file -->
     <link rel="stylesheet" href="/CSS/NAVBAR/navbarStyle.css">
 
-    <!-- about page css file -->
-    <link rel="stylesheet" href="/CSS/ABOUT-PAGE-CSS/AboutStyle.css">
+    <!-- contact page css file -->
+    <link rel="stylesheet" href="/CSS/CONTACT-PAGE-CSS/ContactStyle.css">
 
     <!-- footer -->
     <link rel="stylesheet" href="/CSS/FOOTER/style.css">
@@ -86,72 +86,48 @@
     </div>
     <!-- \ navbar element / -->
 
-    <!-- \ about page parent 1 / -->
-    <div class="about-page-pr1">
-        <h1 class="about-page-pr1-head">
-            We empower innovators
-            by delivering access to the financial system
+    <!-- \ contact page parent 1 / -->
+    
+    <div class="contact-page">
+    
+    <div class="contact-page-pr1">
+        <h1 class="contact-page-pr1-head">
+            Submit a help request and we’ll get in touch shortly.
         </h1>
-        <!-- \ about-page-pr-obj (reusable) / -->
-        <div class="about-page-pr-obj">
-            <h1>Our Vision</h1>
-            <p>
-                Our main goal is to build beautiful consumer experiences along with developer-friendly infrastructure. The result is an intelligent tool that gives everyone the ability to create amazing products that solve big problems. We are deeply focused on democratizing financial services through technology. 
-            </p>
-        </div>
-        <!-- \ about-page-pr-obj (reusable) / -->
-
-        <!-- \ about-page-pr-obj (reusable) / -->
-        <div class="about-page-pr-obj">
-            <h1>Our Business</h1>
-            <p>
-                At the core of our platform is the technical infrastructure APIs that connect consumers. Our innovative product provides key insights for businesses and individuals, as well as robust reporting for traditional financial institutions and developers. 
-            </p>
-        </div>
-        <!-- \ about-page-pr-obj (reusable) / -->
-    </div>
-    <!-- \ about page parent 1 / -->
-
-    <!-- \ about page parent 2 / -->
-    <div class="about-page-pr2"></div>
-    <!-- \ about page parent 2 / -->
-
-    <!-- \ about page parent 3 / -->
-    <div class="about-page-pr3">
-        <div class="about-page-pr3-obj">
-            <p>Team Members</p>
-            <h1>300+</h1>
-        </div>
-
-        <div class="about-page-pr3-obj">
-            <p>Offices in the US</p>
-            <h1>3</h1>
-        </div>
-
-        <div class="about-page-pr3-obj">
-            <p>Transactions analyzed</p>
-            <h1>10M+</h1>
-        </div>
-    </div>
-    <!-- \ about page parent 3 / -->
-
-    <!-- \ about page parent 4 / -->
-    <div class="about-page-pr4">
-        <div class="about-page-pr-obj">
-            <h1>The Culture</h1>
-            <p>
-                We strongly believe there's always an opportunity to learn from each other outside of day-to-day work, whether it's company-wide offsites, internal hackathons, or co-worker meetups. We always value cross-team collaboration and diversity of thought, no matter the job title.
-            </p>
-        </div>
-        <div class="about-page-pr-obj">
-            <h1>The People</h1>
-            <p>
-                We're all passionate about building a more efficient and inclusive financial infrastructure together. At PayAPI, we have diverse backgrounds and skills.
-            </p>
-        </div>
     </div>
 
-    <!-- \ about page parent 4 / -->
+    <div class="contact-page-main">
+
+    <div class="contact-page-form">
+        <input type="text" id="name" name="name" title="This field can’t be empty" minlength="3" maxlength="20" pattern="[A-Za-z]{20}" placeholder="Name">
+        <input type="text" id="email" name="email" title="This field can’t be empty" placeholder="Email Address">
+        <input type="text" id="compName" name="compName" title="This field can’t be empty" pattern="[A-Za-z]{20}" placeholder="Company Name">
+        <input type="text" id="title" name="title" title="This field can’t be empty" pattern="[A-Za-z]{3}" placeholder="Title">
+        <input type="text" id="message" name="message" title="This field can’t be empty" placeholder="Message" minlength="5" maxlength="250">
+        <div class="contact-page-form-check" >
+            <input type="checkbox" class="checkbox" name="checkbox">
+            <label for="checkbox" id="stay">Stay up-to-date with company announcements and updates to our API</label>
+        </div>
+        <input id="submit" type="submit" value="Submit" onclick="clear_form">
+    </div>
+
+    <div class="contact-page-part">    
+    <div class="contact-page-pr2">
+        <h2 class="contact-page-pr2-head">
+            Join the thousands of innovators already building with us
+        </h2>
+    </div>
+
+    <div class="company">
+        <img src="/IMG/tesla.svg" alt="tesla">
+        <img src="/IMG/microsoft.svg" alt="microsoft">
+        <img src="/IMG/hewlett-packard.svg" alt="hp">
+        <img src="/IMG/oracle.svg" alt="oracle">
+        <img src="/IMG/google.svg" alt="google">
+        <img src="/IMG/nvidia.svg" alt="nvidia">
+    </div>
+    </div>
+    </div>
 
     <div class="PB18"> <!-- Nerimantas-->
 		<p class="readyToStart">Ready to start?</p>
@@ -164,7 +140,7 @@
 			</div>
 		</div>
 	</div>
-    
+</div>
 	<footer> <!-- Nerimantas-->
 	<div class="PB19">
 			
@@ -184,9 +160,9 @@
             </a>
 		
 			<div class="group41">
-				<a href="Pages/pricing.html" target="_blank">Pricing</a>
-				<a href="Pages/about.html" target="_blank">About</a>
-				<a href="Pages/contact.html" target="_blank">Contact</a>
+				<a href="/PAGES/Pricing-Page/pricing.html" target="_blank">Pricing</a>
+				<a href="/PAGES/About-Page/about.html" target="_blank">About</a>
+				<a href="/PAGES/Contact-Page/contact.html" target="_blank">Contact</a>
 			</div>
 			<div class="socNet">
 				<a href="https://www.meta.com/"><img class="imgSocNet" src="/IMG/Meta.svg" alt="Meta"></a>

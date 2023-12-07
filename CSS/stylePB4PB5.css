@@ -6,6 +6,7 @@
 
 /* PB4 uzduoties dalis */
 
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .main-PB4-main-box {
     /* width: 375px; */
@@ -56,32 +57,83 @@
     word-wrap: break-word;
     text-align: center;
   }
+=======
+/* @media only screen and (min-width: 300px) and (max-width: 375px) { */
+.main-PB4-main-box {
+  width: 375px;
+  height: 481px;
+  background: #edf3f8;
+  /* font-size: 36px; */
+  /* font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  line-height: 36px;
+  word-wrap: break-word; */
+  margin: 0 auto;
+>>>>>>> 764aeabab99d39a29936646ec2bbbfdd302b5ba9
 }
+
+.main-PB4-bash-text {
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  width: 328px;
+  height: 209px;
+}
+
+.main-PB4-bash-text img {
+  height: 100%;
+  width: 100%;
+  filter: drop-shadow(20px 20px 40px grey);
+}
+
+.main-PB4-text-easy {
+  margin: 0 auto;
+  width: 328px;
+  height: 144px;
+}
+
+.main-PB4-h2-text {
+  color: #36536b;
+  font-size: 36px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  line-height: 36px;
+  word-wrap: break-word;
+  text-align: center;
+  margin-bottom: 24px;
+  padding-left: 30px;
+}
+
+.main-PB4-p-text {
+  color: #6c8294;
+  font-size: 15px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+  text-align: center;
+  padding-left: 20px;
+}
+/* } */
+
 /* PB4 Tablet dalis */
 
+<<<<<<< HEAD
 @media (min-width: 768px) and (max-width: 1440px) {
+=======
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+>>>>>>> 764aeabab99d39a29936646ec2bbbfdd302b5ba9
   .main-PB4-main-box {
-    /* width: 768px; */
-    width: 100%;
-    height: 600px;
-    background: #edf3f8;
-    margin: 0 auto;
+    width: 768px;
+    height: 500px;
   }
   .main-PB4-bash-text {
-    margin: 0 auto;
     margin-bottom: 48px;
     width: 391px;
-    /* height: 250px; */ /*cia bazinis aukstis*/
-    height: 300px;
-    padding-top: 50px;
+    height: 250px;
   }
-  .main-PB4-bash-text img {
-    height: 100%;
-    width: 100%;
-    filter: drop-shadow(20px 20px 40px grey);
-  }
+
   .main-PB4-text-easy {
-    margin: 0 auto;
     width: 573px;
     height: 136px;
   }
@@ -89,6 +141,7 @@
   .main-PB4-h2-text {
     font-size: 48px;
     line-height: 56px;
+<<<<<<< HEAD
     color: #36536b;
     font-family: "DM Serif Display", serif;
     font-weight: 400;
@@ -104,38 +157,33 @@
     line-height: 28px;
     word-wrap: break-word;
     text-align: center;
+=======
+>>>>>>> 764aeabab99d39a29936646ec2bbbfdd302b5ba9
   }
 }
 
 /* PB4 Desktop dalis */
 
+<<<<<<< HEAD
 @media (min-width: 1440px) {
+=======
+@media only screen and (min-width: 1000px) and (max-width: 2440px) {
+>>>>>>> 764aeabab99d39a29936646ec2bbbfdd302b5ba9
   .main-PB4-main-box {
-    width: 100%;
-    height: 700px;
-    background: #edf3f8;
-    margin: 0 auto;
+    width: 1440px;
+    height: 500px;
     display: grid;
     grid-auto-flow: column;
   }
   .main-PB4-bash-text {
     width: 445px;
-    height: 284px;
-    padding: 0px;
-    align-self: center;
-    margin: 0 auto;
+    height: 280px;
+    margin-top: 90px;
   }
-
-  .main-PB4-bash-text img {
-    height: 100%;
-    width: 100%;
-    filter: drop-shadow(20px 20px 40px grey);
-  }
-
   .main-PB4-text-easy {
-    margin: 0 auto;
     width: 445px;
     height: 164px;
+<<<<<<< HEAD
     align-self: center;
     margin-left: 50px;
   }
@@ -157,20 +205,22 @@
     line-height: 28px;
     word-wrap: break-word;
     text-align: left;
+=======
+    margin-top: 150px;
+>>>>>>> 764aeabab99d39a29936646ec2bbbfdd302b5ba9
   }
 }
 
 /* PB5 uzduoties dalis */
 
-@media (max-width: 767px) {
-  /* width: 375px; */
-  .main-PB5-main-box {
-    width: 100%;
-    height: 481px;
-    background: #edf3f8;
-    margin: 0 auto;
-  }
+.main-PB5-main-box {
+  width: 375px;
+  height: 481px;
+  background: #edf3f8;
+  margin: 0 auto;
+}
 
+<<<<<<< HEAD
   .main-PB5-box-mobile {
     margin: 0 auto;
     margin-bottom: 30px;
@@ -209,25 +259,61 @@
     word-wrap: break-word;
     text-align: center;
   }
+=======
+.main-PB5-box-mobile {
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  width: 375;
+  height: 280px;
+  grid-area: a;
+}
+.main-PB5-box-mobile img {
+  height: 100%;
+  width: 100%;
+  filter: drop-shadow(20px 20px 40px grey);
+}
+.main-PB5-text-simple {
+  width: 328px;
+  height: 144px;
+  grid-area: b;
+}
+.main-PB5-h2-text {
+  color: #36536b;
+  font-size: 36px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  line-height: 36px;
+  word-wrap: break-word;
+  text-align: center;
+  margin-bottom: 24px;
+  padding-left: 30px;
+}
+.main-PB5-p-text {
+  color: #6c8294;
+  font-size: 15px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+  text-align: center;
+  padding-left: 30px;
+>>>>>>> 764aeabab99d39a29936646ec2bbbfdd302b5ba9
 }
 
 /* PB5 Tablet dalis */
 
-@media (min-width: 768px) and (max-width: 1440px) {
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
   .main-PB5-main-box {
-    /* width: 768px; */
-    width: 100%;
-    height: 600px;
-    background: #edf3f8;
-    margin: 0 auto;
+    width: 768px;
+    height: 550px;
   }
   .main-PB5-box-mobile {
-    width: 380px;
-    /* height: 298px; */ /*cia bazinis aukstis*/
-    height: 410px;
-    padding-top: 30px;
-    margin-bottom: 60px;
     margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 48px;
+    width: 358px;
+    height: 319px;
   }
 
   .main-PB5-box-mobile img {
@@ -235,24 +321,23 @@
     width: 100%;
     filter: drop-shadow(20px 20px 40px grey);
   }
-
   .main-PB5-text-simple {
-    width: 573px;
-    height: 136px;
     margin: 0 auto;
+    width: 573px;
+    height: 56px;
   }
 
   .main-PB5-h2-text {
-    font-size: 48px;
-    line-height: 56px;
     color: #36536b;
+    font-size: 48px;
     font-family: "DM Serif Display", serif;
     font-weight: 400;
+    line-height: 56px;
     word-wrap: break-word;
     text-align: center;
     margin-bottom: 24px;
+    /* padding-left: 20px; */
   }
-
   .main-PB5-p-text {
     color: #6c8294;
     font-size: 15px;
@@ -261,14 +346,15 @@
     line-height: 28px;
     word-wrap: break-word;
     text-align: center;
-    padding-left: 0px;
+    padding-left: 20px;
   }
 }
 
 /* PB5 Desktop dalis */
 
-@media (min-width: 1440px) {
+@media only screen and (min-width: 1000px) and (max-width: 2440px) {
   .main-PB5-main-box {
+<<<<<<< HEAD
     width: 100%;
     height: 780px;
     background-color: #edf3f8;
@@ -324,5 +410,12 @@
     word-wrap: break-word;
     text-align: left;
     padding-left: 0px;
+=======
+    width: 1440px;
+    height: 500px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-areas: " b a ";
+>>>>>>> 764aeabab99d39a29936646ec2bbbfdd302b5ba9
   }
 }
