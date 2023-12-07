@@ -5,6 +5,13 @@ body {
     background: #EDF3F8;
 }
 
+/* checked & notChecked*/
+.checked svg{
+    padding-right: 1vw;
+}
+.notChecked{
+    opacity: 0.5;
+}
 .pricing-head {
     padding-top: 8vw;
     padding-left: 8vw;
