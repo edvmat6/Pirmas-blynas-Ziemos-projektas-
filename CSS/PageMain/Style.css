@@ -347,6 +347,11 @@
     }
 
     /* PB-2 Telefono paveikslelis*/
+    .PB-2_illustration-phone-mockup {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 
     .PB-2_illustration-phone-mockup img {
         margin-top: 136px;
