@@ -8,7 +8,7 @@
     width: 100%;
     position: fixed;
     display: flex;
-
+    z-index: 3;
     transform: translateX(10%);
 }
 
