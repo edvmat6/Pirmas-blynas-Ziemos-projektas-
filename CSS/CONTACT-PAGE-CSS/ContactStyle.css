@@ -5,6 +5,7 @@
 body {
     background: #EDF3F8;
     margin: 0;
+    
 }
 
 /* Common styles for text elements */
@@ -245,19 +246,19 @@ img{
 }
 
 @media screen and (min-width: 1440px) {		/*Desktop*/
-	.contact-page{
-        width: 1440px;
-    }
-    
+	    
     .contact-page-pr1 {
-        width: 670px;
+        /* width: 670px; */
         height: 133px;
-        margin: 80px auto 54px auto;
+        margin: -115px auto 30px auto;
     }
 
     .contact-page-pr1-head {
+        width: 640px;
         text-align: left;
         padding-left: 0px;
+        margin-top: 170px;
+        margin-left: -280px;
     }
 
     

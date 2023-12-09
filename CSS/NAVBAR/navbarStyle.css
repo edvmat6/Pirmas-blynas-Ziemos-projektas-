@@ -6,7 +6,7 @@
 }
 .navbar-parent {
     width: 100%;
-    position: fixed;
+    /* position: fixed; */ /* užblokavau aš - Nerimantas*/
     display: flex;
     z-index: 3;
     transform: translateX(10%);
