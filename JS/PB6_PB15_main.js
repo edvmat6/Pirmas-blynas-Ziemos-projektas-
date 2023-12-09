@@ -1,44 +1,26 @@
+function scheduleDemomygtukas() {
+    var email = document.getElementById('emailas').value.trim();
 
-// PB6 ir PB15 JS dalies pradzia
- 
-function scheduleDemoButton() {
-    var emailRegex = /\S+@\S+\.\S+/;
-    var email = document.getElementById('emailInput').value;
+    var lietuviskiSimboliai = /[ąčęėįšųūž]/i.test(email.split('@')[0]);
 
-    var lietuviskiSimboliai = /[ąčęėįšųūž]/i.test(email);
-    var specSimboliaiMasyvas = "!@#$%^&*(),.?\":{}|<>";
+    var specSimboliaiMasyvas = "!#$%^&*()',?\":{}|<>";
 
-    var emailas = email.split('@')[0];
+    var emailas = email.split('@');
+    var specSimboliai = [...emailas[0]].some(char => specSimboliaiMasyvas.includes(char));
 
-    var specSimboliai = [...emailas].some(char => specSimboliaiMasyvas.includes(char));
+    var etSimboliai = email.split('@').length === 2;
+    var poAtSimbolioSimboliai = emailas[1].length >= 3;
 
-    if (email === "") { 
-        alert('Įveskite el. paštą.')
-        return false;;
-    } else if (!emailRegex.test(email)) {
-        alert('Įsitikinkite ar el. paštas tinkamo formato.')
-        return false;;
-    } else if (email.length > 20) {
+    var ilgisIkiAtSimbolio = emailas[0].length <= 20;
+
+    if (email === "" || !etSimboliai || !poAtSimbolioSimboliai) {
+        alert('Įveskite el. paštą.');
+    } else if (!ilgisIkiAtSimbolio) {
         alert('El. paštas turi būti ne ilgesnė kaip 20 simbolių.');
-    } else if (lietuviskiSimboliai || specSimboliai) {
-        alert('El. pašto adrese negali būti lietuviškų raidžių arba spec. simbolių.');
+    } else if (lietuviskiSimboliai || specSimboliai || !etSimboliai) {
+        alert('El. pašto adrese negali būti lietuviškų raidžių, spec. simbolių.');
     } else {
-        alert('Sveiki!');
+        alert('Jūs teisingai įvedėte el. pašto adresą!');
     }
-
-    
+    document.getElementById('email').value = '';
 }
-document.getElementById('emailInput').addEventListener('keydown', function (event) {
-    // Check if the pressed key is "Enter" (key code 13)
-    if (event.keyCode === 13) {
-        // Prevent the default behavior of the Enter key (e.g., new line in a text area)
-        event.preventDefault();
-
-        // Trigger the click event on the schedule demo button
-        document.getElementById('scheduleDemoButton').click();
-    }
-});
-
-
-
-// PB6 ir PB15 JS dalies pabaigas
