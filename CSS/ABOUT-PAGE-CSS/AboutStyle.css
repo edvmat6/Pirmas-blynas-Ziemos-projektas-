@@ -131,7 +131,9 @@ p {
 .about-page-pr4 {
   padding: 5vw 10vw;
 }
-
+.about-page-pr4 .about-page-pr-obj:nth-child(2){
+  margin-bottom: 0;
+}
 /* Media Query for Tablet Screens */
 @media (max-width: 960px) {
   .about-page-pr1 {
@@ -157,6 +159,8 @@ p {
 
   .about-page-pr4 {
     padding: 5vw;
+        padding-bottom: 0;
+
   }
 
   body {
