@@ -162,6 +162,7 @@
 /*     margin: 50px 30px; */
     display: grid;
     grid-template-columns: repeat(3, 223px);
+    gap: 10px;
   }
 
   #PB6image {
@@ -238,6 +239,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 350px);
+    gap: 30px;
   }
 
   .personalFinances,
