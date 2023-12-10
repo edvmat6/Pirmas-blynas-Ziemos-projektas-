@@ -6,11 +6,7 @@
 }
 .navbar-parent {
     width: 100%;
-<<<<<<< HEAD
-    position: fixed; 
-=======
     position: relative; /* užblokavau aš - Nerimantas*/
->>>>>>> 685f8e3759e14d13892fec2180c9d8b7cc968481
     display: flex;
     z-index: 3;
     transform: translateX(10%);
