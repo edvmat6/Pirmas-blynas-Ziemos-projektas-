@@ -19,6 +19,20 @@ h1, p {
     margin: 0 auto;
 }
 
+.PB-2_background {
+    background-image: url(../../IMG/bg-pattern-circle.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: -664px;
+    left: 300px;
+    z-index: -1;
+    height: 780px;
+    width: 100%;
+    min-width: 375px;
+}
+
 /* contact page pr1 */
 .contact-page-pr1 {
     width: 327px;
