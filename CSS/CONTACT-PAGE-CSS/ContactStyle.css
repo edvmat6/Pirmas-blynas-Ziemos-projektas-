@@ -56,7 +56,7 @@ h1, p {
     margin-right: auto;
 }
 
-#name, #email, #compName, #title, #message {
+#name, #eMail, #compName, #title, #message {
     width: 307px;
     margin-bottom: 12px;
     padding-left: 20px;
@@ -82,7 +82,7 @@ h1, p {
     letter-spacing: -0.085px;
 } */
 
-#name, #email, #compName, #title {
+#name, #eMail, #compName, #title {
     height: 42px;
 }
 
@@ -90,15 +90,15 @@ h1, p {
     height: 89px;
 }
 
-#name:hover, #email:hover, #compName:hover, #title:hover, #message:hover {
+#name:hover, #eMail:hover, #compName:hover, #title:hover, #message:hover {
     cursor: pointer;
 }
 
-#name:focus::placeholder, #email:focus::placeholder, #compName:focus::placeholder, #title:focus::placeholder, #message:focus::placeholder{
+#name:focus::placeholder, #eMail:focus::placeholder, #compName:focus::placeholder, #title:focus::placeholder, #message:focus::placeholder{
     color: rgb(255, 0, 0, .5);
 }
 
-#name:focus, #email:focus, #compName:focus, #title:focus, #message:focus {
+#name:focus, #eMail:focus, #compName:focus, #title:focus, #message:focus {
     outline: none;
     color: rgb(255, 0, 0, .5);
     border-bottom: 1px solid rgb(255, 0, 0, .5);
@@ -113,14 +113,14 @@ h1, p {
     margin-bottom: 24px;
 }
 
-.checkbox{
+#checkbox{
     width: 24px;
     height: 24px;    
     background: #36536B;
     /* opacity: 0.25; */
 }
 
-.checkbox:hover{
+#checkbox:hover{
     cursor: pointer;
 }
 
@@ -212,7 +212,7 @@ img{
         
     }
     
-    #name, #email, #compName, #title, #message {
+    #name, #eMail, #compName, #title, #message {
         width: 425px;
     }
 
