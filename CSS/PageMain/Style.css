@@ -813,7 +813,7 @@ body {
         align-items: center;
         background-color: #1B262F;
         width: 100%;
-
+        overflow: auto;
     }
 
     .PB-3_grid-container {
