@@ -1,5 +1,8 @@
-function scheduleDemomygtukas() {
-    var email = document.getElementById('emailas').value.trim();
+
+// PB-2 EMAIL LAUKAS
+
+function scheduleDemo2() {
+    var email = document.getElementById('eMailText').value.trim();
 
     var lietuviskiSimboliai = /[ąčęėįšųūž]/i.test(email.split('@')[0]);
 
@@ -22,5 +25,5 @@ function scheduleDemomygtukas() {
     } else {
         alert('Jūs teisingai įvedėte el. pašto adresą!');
     }
-    document.getElementById('email').value = '';
+    document.getElementById('eMailText').value = '';
 }

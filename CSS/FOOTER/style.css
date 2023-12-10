@@ -5,6 +5,7 @@
 
 body{
 	margin: auto;
+	overflow-x: hidden;
 }
 
 .PB18{					/*Ready to Start? group*/
@@ -27,7 +28,24 @@ body{
 	margin-top: 63px;
 	margin-bottom: 32px;
 }
+.PB-18_acheduleDemo_input input {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
 
+
+.PB-18_acheduleDemo_input input {
+	width: 327px;
+	height: 48px;
+	flex-shrink: 0;
+	border-radius: 24px;
+	border: none;
+	background: #FBFCFE;
+	box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+	margin-bottom: 24px;
+	text-indent: 27px;
+}
 .eMail_Demo{			/*Mobile version - emailbox and Demobutton arguments*/
 	display: flex;
 	flex-direction: column;
@@ -52,9 +70,10 @@ body{
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
-	opacity: 0.5;
 	margin-left: 27px;
+	margin-top: 16px;
 	opacity: 0.5;
+	border: none;
 	
 }
 
@@ -62,9 +81,16 @@ body{
 	transform: translateY(80%);
 }
 
+.eMail_Demo:hover{
+	cursor: pointer;
+}
+
 #eMailText:hover{
 	cursor: pointer;
-	border: none;
+}
+
+input:focus{
+outline: none;
 }
 
 .demoButton{			/*Mobile version - Schedule a Demo*/
@@ -109,12 +135,13 @@ a {							/*Mobile version - parameters of links to other pages */
 	font-weight: 700;
 	line-height: normal;
 	color: #FBFCFE;
-	opacity: 0.7;
+	/* opacity: 0.7;  */
 	font-size: 15px;
 	font-family: 'Public sans', sans-serif;
 	cursor: pointer;
 	margin: 0 12px 0 12px;
 }	
+
 a:hover{
 	opacity: 1.0;
 }
@@ -122,6 +149,7 @@ a:hover{
 .imgPayapi, .imgSocNet{
 	margin-top: 38px;
 	margin-bottom: 37px; 
+	opacity: 1.0;
 }
 
 .group41{				/*Navigation */
@@ -134,13 +162,28 @@ a:hover{
 	z-index: 2;
 	border: none;
 	background: none;
+	/* opacity: 0.7; */
+}
+
+.g41-1, .g41-2, .g41-3{
+	opacity: 0.7;
+}
+
+.g41-1:hover, .g41-2:hover, .g41-3:hover {
+	opacity: 1.0;
 }
 
 .socNet{
 	margin: 0 12px 0 12px; 
 	cursor: pointer;
 	z-index: 2;
+	opacity: 1.0;
 }
+
+.socNet a:hover svg path {
+	fill: #BA4270;
+  }
+
 .footerCircle{
 	z-index: 1;
 	display: block;
@@ -167,7 +210,25 @@ a:hover{
 		align-items: center;
 		margin-bottom: 100px;
 	}
+ .PB-18_acheduleDemo_input {
+	display: flex;
+	flex-direction: row;
+	height: 48px;
+	padding-left: 65px;
+	margin-left: 63px;
 
+}
+
+.PB-18_acheduleDemo_input input {
+	width: 445px;
+	height: 48px;
+	flex-shrink: 0;
+	border-radius: 24px;
+	border: none;
+	background: #FBFCFE;
+	box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+	text-indent: 27px;
+}
 	.readyToStart{			/*Tablet version - Ready to start? text*/
 		width: 445px;
 		margin-bottom: 40px;
@@ -187,9 +248,8 @@ a:hover{
 	}
 
 	.PB19{					/*Tablet version - Footer part*/
-		width: 100%;
+		min-width: 768px;
 		height: 100px;
-		background: #1B262F;
 		display: flex;
 		flex-direction: row;
 		align-items: center; 
@@ -233,7 +293,24 @@ a:hover{
 		flex-direction: row;
 		justify-content: space-between;
 	}
+	.PB-18_acheduleDemo_input {
+        display: flex;
+        justify-content: row;
 
+    }
+
+    .PB-18_acheduleDemo_input input {
+        width: 445px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 24px;
+        border: none;
+        background: #FBFCFE;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+      text-indent: 27px;
+
+    }
+	
 	.readyToStart{			/*Desktop version - ready to start? text*/
 		text-align: left;
 		font-size: 48px;

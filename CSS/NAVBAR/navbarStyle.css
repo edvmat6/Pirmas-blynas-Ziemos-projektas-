@@ -6,7 +6,7 @@
 }
 .navbar-parent {
     width: 100%;
-    position: fixed;
+    position: relative; /* užblokavau aš - Nerimantas*/
     display: flex;
     z-index: 3;
     transform: translateX(10%);
@@ -225,8 +225,12 @@
         letter-spacing: -0.00719rem;
 
     }
-
-
-    
+   
 }
+@media screen and (min-width: 1440px) {		/*Desktop*/
+    .navbar-parent {
+        position: relative; 
+        
+    }
 
+}

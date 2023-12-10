@@ -9,6 +9,8 @@
 }
 
 .PB6irPB15 {
+  min-width: 375px;
+        width: 100%;
   margin: 0;
   padding: 0;
   background: #EDF3F8;
@@ -159,7 +161,7 @@
     width: 100%;
     margin: 50px 30px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 223px);
   }
 
   #PB6image {
@@ -231,12 +233,11 @@
 
 
 @media (min-width: 1440px) {
-  .PB6irPB15 {
-    width: 1440px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .PB6 {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
   }
 
   .personalFinances,

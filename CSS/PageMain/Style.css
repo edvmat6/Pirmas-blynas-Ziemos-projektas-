@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+body {
+    background: #EDF3F8;
+    
+}
+
 @media (max-width: 767px) {
 
     /* --------------------------------------------------------------------------------------PB-2-MOBILE */
@@ -38,7 +43,7 @@
     }
 
     .PB-2_illustration-phone-mockup img {
-        margin-top: 110px;
+        margin-top: 42px;
         margin-left: 124px;
         margin-right: 123px;
         margin-bottom: 24px;
@@ -98,7 +103,14 @@
         line-height: 17.63px;
         opacity: 50%;
     }
-
+   #emailas::placeholder {
+        color: #36536B;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 17.63px;
+        opacity: 50%;
+    }
     /* PB-2 Migtukas */
     .PB-2_acheduleDemo_button {
         width: 327px;
@@ -178,7 +190,7 @@
 
     .grid-item_2 {
         padding-top: 80px;
-        padding-right: 48.02px;
+        padding-right: 40.02px;
         padding-bottom: 42.25px;
     }
 
@@ -188,7 +200,7 @@
     }
 
     .grid-item_4 {
-        padding-right: 47.41px;
+        padding-right: 40.41px;
         padding-bottom: 48.01px;
     }
 
@@ -198,7 +210,7 @@
     }
 
     .grid-item_6 {
-        padding-right: 55.51px;
+        padding-right: 40.51px;
         padding-bottom: 57.73px;
     }
 
@@ -354,7 +366,7 @@
     }
 
     .PB-2_illustration-phone-mockup img {
-        margin-top: 136px;
+        margin-top: 52px;
         margin-left: 306.55px;
         margin-right: 305.68px;
         margin-bottom: 0px;
@@ -415,7 +427,14 @@
         line-height: 17.63px;
         opacity: 50%;
     }
-
+ #emailas::placeholder {
+        color: #36536B;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 17.63px;
+        opacity: 50%;
+    }
     /* PB-2 Migtukas */
     .PB-2_acheduleDemo_button {
         width: 173px;
@@ -718,6 +737,7 @@
         background: #FBFCFE;
         box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
         padding-left: 27px;
+        cursor: pointer;
 
     }
 
@@ -728,7 +748,13 @@
         font-weight: 700;
         opacity: 50%;
     }
-
+    #emailas::placeholder {
+        color: #36536B;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        opacity: 50%;
+    }
     .PB-2_acheduleDemo_button {
         width: 173px;
         height: 48px;
