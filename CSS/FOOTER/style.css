@@ -135,12 +135,13 @@ a {							/*Mobile version - parameters of links to other pages */
 	font-weight: 700;
 	line-height: normal;
 	color: #FBFCFE;
-	/* opacity: 0.7; */
+	/* opacity: 0.7;  */
 	font-size: 15px;
 	font-family: 'Public sans', sans-serif;
 	cursor: pointer;
 	margin: 0 12px 0 12px;
 }	
+
 a:hover{
 	opacity: 1.0;
 }
@@ -148,6 +149,7 @@ a:hover{
 .imgPayapi, .imgSocNet{
 	margin-top: 38px;
 	margin-bottom: 37px; 
+	opacity: 1.0;
 }
 
 .group41{				/*Navigation */
@@ -160,13 +162,28 @@ a:hover{
 	z-index: 2;
 	border: none;
 	background: none;
+	/* opacity: 0.7; */
+}
+
+.g41-1, .g41-2, .g41-3{
+	opacity: 0.7;
+}
+
+.g41-1:hover, .g41-2:hover, .g41-3:hover {
+	opacity: 1.0;
 }
 
 .socNet{
 	margin: 0 12px 0 12px; 
 	cursor: pointer;
 	z-index: 2;
+	opacity: 1.0;
 }
+
+.socNet a:hover svg path {
+	fill: #BA4270;
+  }
+
 .footerCircle{
 	z-index: 1;
 	display: block;
