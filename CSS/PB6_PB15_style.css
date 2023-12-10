@@ -159,7 +159,7 @@
 
   .PB6 {
     width: 100%;
-    margin: 50px 30px;
+/*     margin: 50px 30px; */
     display: grid;
     grid-template-columns: repeat(3, 223px);
   }
