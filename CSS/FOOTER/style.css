@@ -5,6 +5,7 @@
 
 body{
 	margin: auto;
+	overflow-x: hidden;
 }
 
 .PB18{					/*Ready to Start? group*/
