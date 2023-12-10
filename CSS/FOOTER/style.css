@@ -27,7 +27,24 @@ body{
 	margin-top: 63px;
 	margin-bottom: 32px;
 }
+.PB-18_acheduleDemo_input input {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
 
+
+.PB-18_acheduleDemo_input input {
+	width: 327px;
+	height: 48px;
+	flex-shrink: 0;
+	border-radius: 24px;
+	border: none;
+	background: #FBFCFE;
+	box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+	margin-bottom: 24px;
+	text-indent: 27px;
+}
 .eMail_Demo{			/*Mobile version - emailbox and Demobutton arguments*/
 	display: flex;
 	flex-direction: column;
@@ -175,7 +192,25 @@ a:hover{
 		align-items: center;
 		margin-bottom: 100px;
 	}
+ .PB-18_acheduleDemo_input {
+	display: flex;
+	flex-direction: row;
+	height: 48px;
+	padding-left: 65px;
+	margin-left: 63px;
 
+}
+
+.PB-18_acheduleDemo_input input {
+	width: 445px;
+	height: 48px;
+	flex-shrink: 0;
+	border-radius: 24px;
+	border: none;
+	background: #FBFCFE;
+	box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+	text-indent: 27px;
+}
 	.readyToStart{			/*Tablet version - Ready to start? text*/
 		width: 445px;
 		margin-bottom: 40px;
@@ -240,7 +275,24 @@ a:hover{
 		flex-direction: row;
 		justify-content: space-between;
 	}
+	.PB-18_acheduleDemo_input {
+        display: flex;
+        justify-content: row;
 
+    }
+
+    .PB-18_acheduleDemo_input input {
+        width: 445px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 24px;
+        border: none;
+        background: #FBFCFE;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+      text-indent: 27px;
+
+    }
+	
 	.readyToStart{			/*Desktop version - ready to start? text*/
 		text-align: left;
 		font-size: 48px;

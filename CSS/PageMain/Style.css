@@ -103,7 +103,14 @@ body {
         line-height: 17.63px;
         opacity: 50%;
     }
-
+   #emailas::placeholder {
+        color: #36536B;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 17.63px;
+        opacity: 50%;
+    }
     /* PB-2 Migtukas */
     .PB-2_acheduleDemo_button {
         width: 327px;
@@ -420,7 +427,14 @@ body {
         line-height: 17.63px;
         opacity: 50%;
     }
-
+ #emailas::placeholder {
+        color: #36536B;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 17.63px;
+        opacity: 50%;
+    }
     /* PB-2 Migtukas */
     .PB-2_acheduleDemo_button {
         width: 173px;
@@ -733,7 +747,13 @@ body {
         font-weight: 700;
         opacity: 50%;
     }
-
+    #emailas::placeholder {
+        color: #36536B;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        opacity: 50%;
+    }
     .PB-2_acheduleDemo_button {
         width: 173px;
         height: 48px;
