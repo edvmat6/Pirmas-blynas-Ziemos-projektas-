@@ -23,7 +23,8 @@ h1, p {
 .contact-page-pr1 {
     width: 327px;
     height: 100px;
-    margin: 48px auto 54px auto;
+    margin: 0px auto 94px auto;
+    padding-top: 48px;
 }
 
 .contact-page-pr1-head {
@@ -194,7 +195,7 @@ img{
 	.contact-page-pr1 {
         width: 573px;
         height: 178px;
-        margin: 80px auto 54px auto;
+        margin: 0px auto 94px auto;
     }
     
     .contact-page-pr1-head {
@@ -246,11 +247,16 @@ img{
 }
 
 @media screen and (min-width: 1440px) {		/*Desktop*/
-	    
+	.contact-page{
+        margin-top: -90px;
+    } 
+    
+
     .contact-page-pr1 {
         /* width: 670px; */
         height: 133px;
-        margin: -115px auto 30px auto;
+        margin: 0px auto 30px auto;
+        padding-top: 0px;
     }
 
     .contact-page-pr1-head {
